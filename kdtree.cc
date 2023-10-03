@@ -1,5 +1,5 @@
-#include <iostream>
-#include <vector>
+#include "kdtree.hh"
+
 
 struct Point {
     std::vector<int> coordinates;
