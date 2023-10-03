@@ -16,7 +16,7 @@ public:
     KDTreeNode* left;
     KDTreeNode* right;
 
-    KDTreeNode(const Point& p) : point(p), left(nullptr), right(nullptr) {}
+    KDTreeNode(const Point& p) : point(p), left(nullptr), right(nullptr);
 };
 
 class KDTree {
