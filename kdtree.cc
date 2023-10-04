@@ -1,24 +1,21 @@
 #include "kdtree.hh"
 
+//Constructor para arbol vacio
 
-struct Point {
-    std::vector<int> coordinates;
-};
+KDTree::KDTree() : root(nullptr) {
+    // Implementación del constructor para un árbol KD vacío
+}
 
-class KDTreeNode {
-public:
-    Point point;
-    KDTreeNode* left;
-    KDTreeNode* right;
 
-    KDTreeNode(const Point& p) : point(p), left(nullptr), right(nullptr) {}
-};
+KDTree::KDTree(std::vector<Point>& points){
+    root = buildTree(points, 0);
+} 
 
-class KDTree {
-private:
-    KDTreeNode* root;
+void KDTree::insertPoint(Point point){
+    //Ya lo haremos
+}
 
-    KDTreeNode* buildTree(std::vector<Point>& points, int depth) {
+KDTreeNode* KDTree::buildTree(std::vector<Point>& points, int depth) {
         if (points.empty()) {
             return nullptr;
         }
@@ -41,24 +38,12 @@ private:
         return node;
     }
 
-public:
-    KDTree(std::vector<Point>& points) : root(nullptr) {
-        root = buildTree(points, 0);
-    }
 
-    // Implementar funciones de búsqueda, inserción, eliminación y otras según tus necesidades.
-
-    // Función de búsqueda de un punto en el árbol.
-    KDTreeNode* search(const Point& target) {
-        // Implementa la búsqueda aquí.
-    }
-
-    // Destructor para liberar la memoria.
     ~KDTree() {
         // Implementa la eliminación de nodos y liberación de memoria aquí.
     }
-};
 
+/*
 int main() {
     // Ejemplo de uso:
     std::vector<Point> points = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10}};
@@ -68,3 +53,4 @@ int main() {
     
     return 0;
 }
+*/
