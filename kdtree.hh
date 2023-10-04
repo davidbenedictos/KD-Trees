@@ -9,7 +9,8 @@
 typedef std::vector<float> Point;
 
 
-struct KDTreePoint{
+struct KDTreeNode
+{
         Point point;
         KDTreeNode* left;
         KDTreeNode* right;
@@ -22,19 +23,17 @@ class KDTree {
 private:
     KDTreeNode* root;
 
-    KDTreeNode* buildTree(std::vector<Point>& points, int depth) 
+    KDTreeNode* buildTree(std::vector<Point>& points, int depth);
   
 public:
     //Constructor arbol vacio
     KDTree();
 
     //Constructor con n puntos k-dimensionales
-
     KDTree(std::vector<Point> points);
  
-    // Implementar funciones de búsqueda, inserción, eliminación y otras según tus necesidades.
 
-    //Metodo para añadir solo una clave k-dimensional
+    //Metodo para añadir una clave k-dimensional al árbol
     void insertPoint(Point);
 
     // Función de búsqueda de un punto en el árbol.
