@@ -33,6 +33,9 @@ public:
     //Constructor con n puntos k-dimensionales
     KDTree(std::vector<Point> p);
 
+    //Metodo para crea un arbol con n puntos k-dimensionales aleatorios
+    KDTree randomKDTree(int N, int K);
+
     //Metodo para añadir una clave k-dimensional al árbol
     KDTreeNode* insertPoint(KDTreeNode* r, Point p, int depth);
 
