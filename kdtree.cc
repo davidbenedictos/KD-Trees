@@ -6,14 +6,14 @@ KDTree::KDTree() : root(nullptr) {
     // Implementación del constructor para un árbol KD vacío
 }
 
-
-KDTree::KDTree(std::vector<Point>& points) : root(nullptr){  
-    for(int i = 0; i < points.size(); ++i){
+KDTree::KDTree(std::vector<Point>& points) {
+    root = createNode(points[0]);
+    for(int i = 1; i < points.size(); ++i){
       insertPoint(root, points[i], 0);
     }
 }
 
-KDTree::KDTree(int N, int K){
+KDTree::KDTree(int N, int K) {
     // Generar numeros aleatorios en el intervalo [0, 1]
     std::random_device rd;
     std::mt19937 mt(rd());
@@ -29,18 +29,17 @@ KDTree::KDTree(int N, int K){
     KDTree(points);
 }
 
-KDTreeNode* KDTree::createNode(Point p){
+KDTreeNode* KDTree::createNode(Point p) {
     KDTreeNode* node = new KDTreeNode;
         node->point = p;
         node->left = node->right = nullptr;
+    return node;
 }
 
-KDTreeNode* KDTree::insertPoint(KDTreeNode* r, Point p, int depth){
+KDTreeNode* KDTree::insertPoint(KDTreeNode* r, Point p, int depth) {
     
-    KDTreeNode* node = createNode(p);
-    
-    if (root == nullptr){       
-        return node;
+    if (r == nullptr){       
+        return createNode(p);;
     } else {
         int k = p.size();
         int i = depth%k;
