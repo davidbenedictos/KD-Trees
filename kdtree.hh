@@ -22,7 +22,9 @@ private:
 
     KDTreeNode* buildTree(std::vector<Point>& points, int depth);
 
-    KDTreeNode* createNode(Point)
+    KDTreeNode* createNode(Point);
+
+    void destroyTree(KDTreeNode* node);
   
 public:
     //Constructor arbol vacio
@@ -30,7 +32,6 @@ public:
 
     //Constructor con n puntos k-dimensionales
     KDTree(std::vector<Point> p);
- 
 
     //Metodo para añadir una clave k-dimensional al árbol
     KDTreeNode* insertPoint(KDTreeNode* r, Point p, int depth);
