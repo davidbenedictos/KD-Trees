@@ -37,12 +37,20 @@ KDTreeNode* KDTree::insertPoint(KDTreeNode* r, Point p, int depth){
     return r;
 }
 
+void destroyTree(KDTreeNode* node) {
+    if(node == nullptr) return;
 
+    destroyTree(node->left);
+    destroyTree(node->right);
 
+    delete node;
+
+}
 
 ~KDTree() {
-        // Implementa la eliminación de nodos y liberación de memoria aquí.
-    }
+    // Implementa la eliminación de nodos y liberación de memoria aquí.
+    destroyTree(root);
+}
 
 /*
 int main() {
