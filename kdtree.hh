@@ -8,36 +8,35 @@
 
 typedef std::vector<float> Point;
 
-
-struct KDTreeNode
-{
-        Point point;
-        KDTreeNode* left;
-        KDTreeNode* right;
-       
-        KDTreeNode(const Point& p) : point(p), left(nullptr), right(nullptr));
-};
-
 class KDTree {
 
 private:
+    struct KDTreeNode
+    {
+        Point point;
+        KDTreeNode* left;
+        KDTreeNode* right;     
+    };
+
     KDTreeNode* root;
 
     KDTreeNode* buildTree(std::vector<Point>& points, int depth);
+
+    KDTreeNode* createNode(Point)
   
 public:
     //Constructor arbol vacio
     KDTree();
 
     //Constructor con n puntos k-dimensionales
-    KDTree(std::vector<Point> points);
+    KDTree(std::vector<Point> p);
  
 
     //Metodo para añadir una clave k-dimensional al árbol
-    void insertPoint(Point);
+    KDTreeNode* insertPoint(KDTreeNode* r, Point p, int depth);
 
     // Función de búsqueda de un punto en el árbol.
-    search(const Point& target);
+    //search(const Point& target);
 
     // Destructor para liberar la memoria.
     ~KDTree();
