@@ -37,6 +37,20 @@ KDTreeNode* KDTree::insertPoint(KDTreeNode* r, Point p, int depth){
     return r;
 }
 
+KDTree KDTree::randomKDTree(int N, int K){
+    std::random_device rd;
+    std::mt19937 mt(rd());
+    std::uniform_real_distribution<double> dist(0, 1);
+
+    std::vector<Point> points(N,Point(K));
+
+    for (int i=0; i < N; ++i) {
+        for (int j = 0; j < K; ++j) points[i][j] = dist(mt);
+    }
+
+    return KDTree(points);
+}
+
 void KDTree::destroyTree(KDTreeNode* node) {
     if(node == nullptr) return;
 
