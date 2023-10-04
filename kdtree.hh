@@ -6,40 +6,41 @@
 #include <algorithm>
 #include <random>
 
-struct Point {
-    std::vector<int> coordinates;
-};
+typedef std::vector<float> Point;
 
-class KDTreeNode {
-public:
-    Point point;
-    KDTreeNode* left;
-    KDTreeNode* right;
 
-    KDTreeNode(const Point& p) : point(p), left(nullptr), right(nullptr));
+struct KDTreePoint{
+        Point point;
+        KDTreeNode* left;
+        KDTreeNode* right;
+       
+        KDTreeNode(const Point& p) : point(p), left(nullptr), right(nullptr));
 };
 
 class KDTree {
+
 private:
     KDTreeNode* root;
 
     KDTreeNode* buildTree(std::vector<Point>& points, int depth) 
   
 public:
-    KDTree(std::vector<Point>& points) : root(nullptr) {
-    
-    }
+    //Constructor arbol vacio
+    KDTree();
 
+    //Constructor con n puntos k-dimensionales
+
+    KDTree(std::vector<Point> points);
+ 
     // Implementar funciones de búsqueda, inserción, eliminación y otras según tus necesidades.
 
+    //Metodo para añadir solo una clave k-dimensional
+    void insertPoint(Point);
+
     // Función de búsqueda de un punto en el árbol.
-    KDTreeNode* search(const Point& target) {
-        // Implementa la búsqueda aquí.
-    }
+    search(const Point& target);
 
     // Destructor para liberar la memoria.
-    ~KDTree() {
-        // Implementa la eliminación de nodos y liberación de memoria aquí.
-    }
+    ~KDTree();
 };
 
