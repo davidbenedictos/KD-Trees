@@ -39,7 +39,7 @@ KDTreeNode* KDTree::createNode(Point p) {
 KDTreeNode* KDTree::insertPoint(KDTreeNode* r, Point p, int depth) {
     
     if (r == nullptr){       
-        return createNode(p);;
+        return createNode(p);
     } else {
         int k = p.size();
         int i = depth%k;
