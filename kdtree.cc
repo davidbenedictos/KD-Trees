@@ -37,7 +37,7 @@ KDTreeNode* KDTree::insertPoint(KDTreeNode* r, Point p, int depth){
     return r;
 }
 
-void destroyTree(KDTreeNode* node) {
+void KDTree::destroyTree(KDTreeNode* node) {
     if(node == nullptr) return;
 
     destroyTree(node->left);
