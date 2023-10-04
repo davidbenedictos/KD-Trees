@@ -11,7 +11,23 @@ KDTree::KDTree(std::vector<Point>& points) : root(nullptr){
     for(int i = 0; i < points.size(); ++i){
       insertPoint(root, points[i], 0);
     }
-} 
+}
+
+KDTree::KDTree(int N, int K){
+    // Generar numeros aleatorios en el intervalo [0, 1]
+    std::random_device rd;
+    std::mt19937 mt(rd());
+    std::uniform_real_distribution<double> dist(0, 1);
+
+    // Vector con N puntos de K dimensiones
+    std::vector<Point> points(N, Point(K));
+    for (int i=0; i < N; ++i) {
+        for (int j = 0; j < K; ++j) points[i][j] = dist(mt);
+    }
+
+    // Llamar al constructor con vector de puntos aleatorios
+    KDTree(points);
+}
 
 KDTreeNode* KDTree::createNode(Point p){
     KDTreeNode* node = new KDTreeNode;
@@ -35,20 +51,6 @@ KDTreeNode* KDTree::insertPoint(KDTreeNode* r, Point p, int depth){
         }
     }
     return r;
-}
-
-KDTree KDTree::randomKDTree(int N, int K){
-    std::random_device rd;
-    std::mt19937 mt(rd());
-    std::uniform_real_distribution<double> dist(0, 1);
-
-    std::vector<Point> points(N,Point(K));
-
-    for (int i=0; i < N; ++i) {
-        for (int j = 0; j < K; ++j) points[i][j] = dist(mt);
-    }
-
-    return KDTree(points);
 }
 
 void KDTree::destroyTree(KDTreeNode* node) {
