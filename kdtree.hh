@@ -9,13 +9,13 @@
 typedef std::vector<float> Point;
 
 
-struct KDTreeNode
+struct KDTreePoint
 {
         Point point;
         KDTreeNode* left;
         KDTreeNode* right;
        
-        KDTreeNode(const Point& p) : point(p), left(nullptr), right(nullptr));
+        KDTreePoint(const Point& p) : point(p), left(nullptr), right(nullptr));
 };
 
 class KDTree {
