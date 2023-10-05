@@ -13,6 +13,8 @@ KDTree::KDTree(std::vector<Point>& points) {
     }
 }
 
+
+
 KDTree::KDTree(int N, int K) {
     // Generar numeros aleatorios en el intervalo [0, 1]
     std::random_device rd;
@@ -74,7 +76,7 @@ void KDTree::printTree(KDTreeNode* node){
         printTree(node -> left);
         printNode(node -> point);
         printTree(node -> right);
-        
+    }
 }
 
 void KDTree::print() {
@@ -97,7 +99,7 @@ KDTree::~KDTree() {
     destroyTree(root);
 }
 
-/*
+
 int main() {
     // Ejemplo de uso:
     // Generar árbol aleatorio
@@ -124,4 +126,3 @@ int main() {
     
     return 0;
 }
-*/

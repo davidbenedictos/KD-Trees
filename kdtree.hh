@@ -27,8 +27,8 @@ private:
 
     void destroyTree(KDTreeNode* node);
 
-    void printNode(const Point& point)
-    void printTree( KDTreeNode* node);
+    void printNode(const Point& point);
+    void printTree(KDTreeNode* node);
 
 
   
