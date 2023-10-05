@@ -25,18 +25,21 @@ KDTree::KDTree(int N, int K) {
         for (int j = 0; j < K; ++j) points[i][j] = dist(mt);
     }
 
-    // Llamar al constructor con vector de puntos aleatorios
-    KDTree(points);
+    // Construir el árbol con vector de puntos aleatorios
+    root = createNode(points[0]);
+    for(int i = 1; i < points.size(); ++i){
+        insertPoint(root, points[i], 0);
+    }
 }
 
-KDTreeNode* KDTree::createNode(Point p) {
+KDTreeNode* KDTree::createNode(const Point& p) {
     KDTreeNode* node = new KDTreeNode;
         node->point = p;
         node->left = node->right = nullptr;
     return node;
 }
 
-KDTreeNode* KDTree::insertPoint(KDTreeNode* r, Point p, int depth) {
+KDTreeNode* KDTree::insertPoint(KDTreeNode* r, const Point& p, int depth) {
     
     if (r == nullptr){       
         return createNode(p);
@@ -52,6 +55,19 @@ KDTreeNode* KDTree::insertPoint(KDTreeNode* r, Point p, int depth) {
     return r;
 }
 
+void KDTree::insert(const Point& p) {
+    insertPoint(root,p,0);
+}
+
+void KDTree::printTree(KDTreeNode* node, int depth){
+    //Imprimir el árbol
+}
+
+void KDTree::print() {
+        printTree(root, 0);
+        std::cout << std::endl;
+    }
+
 void KDTree::destroyTree(KDTreeNode* node) {
     if(node == nullptr) return;
 
@@ -62,7 +78,7 @@ void KDTree::destroyTree(KDTreeNode* node) {
 
 }
 
-~KDTree() {
+KDTree::~KDTree() {
     // Implementa la eliminación de nodos y liberación de memoria aquí.
     destroyTree(root);
 }
@@ -70,8 +86,25 @@ void KDTree::destroyTree(KDTreeNode* node) {
 /*
 int main() {
     // Ejemplo de uso:
-    std::vector<Point> points = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10}};
-    KDTree kdTree(points);
+    // Generar árbol aleatorio
+    int N,K;
+    std::cin >> N >> K;
+    KDTree t(N,K);
+
+    // Imprimir árbol
+    t.print();
+
+    // Insertar un punto k-dimensional
+    Point p;
+    float x;
+    for (int i = 0; i < K; ++i) {
+        std::cin >> x;
+        p.push_back(x);
+    }
+    t.insert(p);
+    
+    // Imprimir árbol
+    t.print();
 
     // Realiza operaciones de búsqueda, inserción, eliminación, etc., según sea necesario.
     
