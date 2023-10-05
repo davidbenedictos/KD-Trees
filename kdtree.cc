@@ -59,14 +59,28 @@ void KDTree::insert(const Point& p) {
     insertPoint(root,p,0);
 }
 
-void KDTree::printTree(KDTreeNode* node, int depth){
-    //Imprimir el árbol
+void KDTree::printNode(const Point& p){
+        int k = p.size();
+        std::cout << '(';
+        for (int i = 0; i < k; ++i) {
+            if (i != 0) std::cout << ", ";
+            std::cout << p[i];
+        }
+        std::cout << ")" << std::endl;
+}
+
+void KDTree::printTree(KDTreeNode* node){
+    if (node != nullptr) {
+        printTree(node -> left);
+        printNode(node -> point);
+        printTree(node -> right);
+        
 }
 
 void KDTree::print() {
-        printTree(root, 0);
+        printTree(root);
         std::cout << std::endl;
-    }
+}
 
 void KDTree::destroyTree(KDTreeNode* node) {
     if(node == nullptr) return;
