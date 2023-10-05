@@ -27,7 +27,10 @@ private:
 
     void destroyTree(KDTreeNode* node);
 
-    void printTree(KDTreeNode* node, int depth);
+    void printNode(const Point& point)
+    void printTree( KDTreeNode* node);
+
+
   
 public:
     //Constructor arbol vacio
@@ -45,7 +48,10 @@ public:
     // Función de búsqueda de un punto en el árbol.
     //search(const Point& target);
 
+
+    
     // Función para imprimir el árbol.
+  
     void print();
 
     // Función para un punto en el árbol.
