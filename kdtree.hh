@@ -5,6 +5,9 @@
 #include <vector>
 #include <algorithm>
 #include <random>
+#include <queue>
+#include <iomanip>
+#include <math.h> 
 
 typedef std::vector<float> Point;
 
@@ -27,8 +30,7 @@ private:
 
     void destroyTree(KDTreeNode* node);
 
-    void printNode(const Point& point);
-    void printTree(KDTreeNode* node);
+    void printNode(const Point& point, int n);
 
 
   

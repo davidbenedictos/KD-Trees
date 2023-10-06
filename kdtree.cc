@@ -61,26 +61,36 @@ void KDTree::insert(const Point& p) {
     insertPoint(root,p,0);
 }
 
-void KDTree::printNode(const Point& p){
+void KDTree::printNode(const Point& p, int n){
         int k = p.size();
-        std::cout << '(';
+        std::cout <<'('<< n << "| ";
         for (int i = 0; i < k; ++i) {
             if (i != 0) std::cout << ", ";
-            std::cout << p[i];
+            std::cout << std::fixed << std::setprecision(2) << p[i];
         }
-        std::cout << ")" << std::endl;
-}
-
-void KDTree::printTree(KDTreeNode* node){
-    if (node != nullptr) {
-        printTree(node -> left);
-        printNode(node -> point);
-        printTree(node -> right);
-    }
+        std::cout << ")";
 }
 
 void KDTree::print() {
-        printTree(root);
+        std::queue<std::pair<KDTreeNode*, int>> q;
+
+        if (root != nullptr) q.push(std::make_pair(root, 1));
+        int lvl = 1;
+        KDTreeNode* node;
+
+        while (not q.empty()) {
+            node = q.front().first;
+            if (std::log2(q.front().second) >= lvl) {
+                std::cout << std::endl;
+                lvl = lvl+1;
+            }
+            if (node != nullptr){
+                q.push(std::make_pair(node->left, q.front().second*2));
+                q.push(std::make_pair(node->right, q.front().second*2+1));
+                printNode(node->point, q.front().second);
+            } 
+            q.pop();
+        }
         std::cout << std::endl;
 }
 
@@ -102,27 +112,76 @@ KDTree::~KDTree() {
 
 int main() {
     // Ejemplo de uso:
-    // Generar árbol aleatorio
+    
+
+    // Elegir tamaño 
+    std::cout << "Elige Número de nodos y número de variables:" << std::endl;
     int N,K;
     std::cin >> N >> K;
-    KDTree t(N,K);
 
-    // Imprimir árbol
-    t.print();
+    // Elegir modo de creacion
+    std::cout << "Elige modo de creación (0 es aleatorio y 1 es a mano):" << std::endl; 
+    bool modo;
+    std::cin >> modo;
 
-    // Insertar un punto k-dimensional
-    Point p;
-    float x;
-    for (int i = 0; i < K; ++i) {
-        std::cin >> x;
-        p.push_back(x);
+    if (modo) {
+        // Elegir nodos del arbol
+        std::vector<Point> v(N, Point(K));
+        for (int i = 0; i < N; ++i) {
+            for (int j = 0; j < K; ++j) std::cin >> v[i][j];
+        }
+        KDTree t(v);
+
+        t.print();
+
+        // Insertar un punto k-dimensional
+        Point p;
+        float x;
+        for (int i = 0; i < K; ++i) {
+            std::cin >> x;
+            p.push_back(x);
+            t.insert(p);
+        }
+
+        // Imprimir árbol
+        t.print();
     }
-    t.insert(p);
-    
-    // Imprimir árbol
-    t.print();
+    else {
+        // Generar árbol aleatorio
+        KDTree t(N,K);
 
-    // Realiza operaciones de búsqueda, inserción, eliminación, etc., según sea necesario.
+        t.print();
+
+        // Insertar un punto k-dimensional
+        Point p;
+        float x;
+        for (int i = 0; i < K; ++i) {
+            std::cin >> x;
+            p.push_back(x);
+            t.insert(p);
+        }
+
+        // Imprimir árbol
+        t.print();
+    }
     
     return 0;
 }
+
+/*
+7 2 1
+0.03
+0.06
+0.02
+0.07
+0.17
+0.15
+0.06
+0.12
+0.09
+0.01
+0.13
+0.15
+0.1
+0.19
+*/
