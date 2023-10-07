@@ -11,56 +11,53 @@
 
 typedef std::vector<float> Point;
 
-struct KDTreeNode
-    {
-        Point point;
-        KDTreeNode* left;
-        KDTreeNode* right;     
-    };
+struct KDTreeNode {
+    Point point;
+    KDTreeNode* left;
+    KDTreeNode* right;     
+};
 
 class KDTree {
 
-private:
+    private:
 
-    KDTreeNode* root;
+        KDTreeNode* root;
 
-    //KDTreeNode* buildTree(std::vector<Point>& points, int depth);
+        //KDTreeNode* buildTree(std::vector<Point>& points, int depth);
 
-    KDTreeNode* createNode(const Point& p);
+        KDTreeNode* createNode(const Point& p);
 
-    void destroyTree(KDTreeNode* node);
+        // Metodo para añadir una clave k-dimensional al árbol
+        KDTreeNode* insertPoint(KDTreeNode* r, const Point& p, int depth);
 
-    void printNode(const Point& point, int n);
+        void destroyTree(KDTreeNode* node);
 
+        void printNode(const Point& point, int n);
 
-  
-public:
-    //Constructor arbol vacio
-    KDTree();
+        void nearestNode(const Point& p, int depth);
 
-    //Constructor con n puntos k-dimensionales
-    KDTree(std::vector<Point>& points);
+    public:
 
-    //Constructor con n puntos k-dimensionales aleatorios
-    KDTree(int N, int K);
+        // Constructor arbol vacio
+        KDTree();
 
-    //Metodo para añadir una clave k-dimensional al árbol
-    KDTreeNode* insertPoint(KDTreeNode* r, const Point& p, int depth);
+        // Constructor con n puntos k-dimensionales
+        KDTree(std::vector<Point>& points);
 
-    // Función de búsqueda de un punto en el árbol.
-    //search(const Point& target);
+        // Constructor con n puntos k-dimensionales aleatorios
+        KDTree(int N, int K);
+        
+        // Imprimir el árbol.
+        void print();
 
+        // Insertar un punto en el árbol.
+        void insert(const Point& p);
 
-    
-    // Función para imprimir el árbol.
-  
-    void print();
+        //Retorna el punto mas cercano a p en un árbol no vacío
+        Point nearestNode(const Point& p);
 
-    // Función para un punto en el árbol.
-    void insert(const Point& p);
-
-    // Destructor para liberar la memoria.
-    ~KDTree();
+        // Destructor para liberar la memoria.
+        ~KDTree();
 };
 
 #endif

@@ -13,8 +13,6 @@ KDTree::KDTree(std::vector<Point>& points) {
     }
 }
 
-
-
 KDTree::KDTree(int N, int K) {
     // Generar numeros aleatorios en el intervalo [0, 1]
     std::random_device rd;
@@ -61,7 +59,7 @@ void KDTree::insert(const Point& p) {
     insertPoint(root,p,0);
 }
 
-void KDTree::printNode(const Point& p, int n){
+void KDTree::printNode(const Point& p, int n) {
         int k = p.size();
         std::cout <<'('<< n << "| ";
         for (int i = 0; i < k; ++i) {
@@ -95,13 +93,21 @@ void KDTree::print() {
 }
 
 void KDTree::destroyTree(KDTreeNode* node) {
-    if(node == nullptr) return;
+    if (node == nullptr) return;
 
     destroyTree(node->left);
     destroyTree(node->right);
 
     delete node;
+}
 
+
+Point KDTree::nearestNode(const Point& p) {
+    return nearestNode(root, 0);
+}
+
+Point KDTree::nearestNode(const Point& p, int depth) {
+    //implementar
 }
 
 KDTree::~KDTree() {
