@@ -40,7 +40,7 @@ class KDTree {
         KDTreeNode* closest(const Point& n, KDTreeNode* temp, KDTreeNode* root);
 
         //Retorna la distancia entre el punto a y el punto b al quadrado 
-        float distSquared(const Point& a, const Point& b);
+        float dist(const Point& a, const Point& b);
 
     public:
 

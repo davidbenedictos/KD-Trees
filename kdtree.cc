@@ -101,20 +101,21 @@ void KDTree::destroyTree(KDTreeNode* node) {
     delete node;
 }
 
-float KDTree::distSquared(const Point& a, const Point& b) {
+float KDTree::dist(const Point& a, const Point& b) {
     float d = 0.;
     for (int i = 0; i < a.size(); ++i) {
-        d += a[i] - b[i];
+        float dif = a[i] - b[i];
+        d += dif*dif;
     }
-    return d;
+    return sqrt(d);
 }
 
 
 KDTreeNode* KDTree::closest(const Point& n, KDTreeNode* temp, KDTreeNode* r) {
     if (temp == nullptr) return r;
 
-    float distanceRoot = distSquared(n, r -> point);
-    float distanceTemp = distSquared(n, temp -> point);
+    float distanceRoot = dist(n, r -> point);
+    float distanceTemp = dist(n, temp -> point);
 
     if (distanceTemp <= distanceRoot) return temp;
     return r;
@@ -132,7 +133,6 @@ KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth) {
     KDTreeNode* next;
     KDTreeNode* other;
 
-
     if (n[d] < r -> point[d]) {
         next = r -> left;
         other = r -> right;
@@ -145,10 +145,10 @@ KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth) {
     KDTreeNode* best = closest(n, temp, r);
 
 
-    int radiusS = distSquared(n, best -> point); 
-    int dist = n[d] - r -> point[d];
+    int bestRadius = dist(n, best -> point); 
+    int distD = std::abs(n[d] - (r -> point[d]));
 
-    if (radiusS >= dist*dist) {
+    if (bestRadius >= distD) {
         temp = nearestNode(other, n, depth + 1);
         best = closest(n, temp, r);
     }
