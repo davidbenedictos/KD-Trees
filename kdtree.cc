@@ -6,7 +6,7 @@ KDTree::KDTree() : root(nullptr) {
     // Implementación del constructor para un árbol KD vacío
 }
 
-KDTree::KDTree(std::vector<Point>& points) {
+KDTree::KDTree(const std::vector<Point>& points) {
     root = createNode(points[0]);
     for(int i = 1; i < points.size(); ++i){
       insertPoint(root, points[i], 0);
@@ -101,13 +101,59 @@ void KDTree::destroyTree(KDTreeNode* node) {
     delete node;
 }
 
-
-Point KDTree::nearestNode(const Point& p) {
-    return nearestNode(root, 0);
+float KDTree::distSquared(const Point& a, const Point& b) {
+    float d = 0.;
+    for (int i = 0; i < a.size(); ++i) {
+        d += a[i] - b[i];
+    }
+    return d;
 }
 
-Point KDTree::nearestNode(const Point& p, int depth) {
-    //implementar
+
+KDTreeNode* KDTree::closest(const Point& n, KDTreeNode* temp, KDTreeNode* r) {
+    if (temp == nullptr) return r;
+
+    float distanceRoot = distSquared(n, r -> point);
+    float distanceTemp = distSquared(n, temp -> point);
+
+    if (distanceTemp <= distanceRoot) return temp;
+    return r;
+}
+
+KDTreeNode* KDTree::nearestNode(const Point& p) {
+    return nearestNode(root, p, 0);
+}
+
+
+KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth) {
+    if (r == nullptr) return nullptr;
+
+    int d = depth%n.size();
+    KDTreeNode* next;
+    KDTreeNode* other;
+
+
+    if (n[d] < r -> point[d]) {
+        next = r -> left;
+        other = r -> right;
+    } else {
+        next = r -> right;
+        other = r -> left;
+    }
+
+    KDTreeNode* temp = nearestNode(next, n, depth + 1);
+    KDTreeNode* best = closest(n, temp, r);
+
+
+    int radiusS = distSquared(n, best -> point); 
+    int dist = n[d] - r -> point[d];
+
+    if (radiusS >= dist*dist) {
+        temp = nearestNode(other, n, depth + 1);
+        best = closest(n, temp, r);
+    }
+
+    return best;
 }
 
 KDTree::~KDTree() {

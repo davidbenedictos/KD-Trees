@@ -34,7 +34,13 @@ class KDTree {
 
         void printNode(const Point& point, int n);
 
-        void nearestNode(const Point& p, int depth);
+        KDTreeNode* nearestNode(KDTreeNode* r, const Point& n, int depth);
+
+        //Retorna que punto esta mas cerca de n
+        KDTreeNode* closest(const Point& n, KDTreeNode* temp, KDTreeNode* root);
+
+        //Retorna la distancia entre el punto a y el punto b al quadrado 
+        float distSquared(const Point& a, const Point& b);
 
     public:
 
@@ -42,7 +48,7 @@ class KDTree {
         KDTree();
 
         // Constructor con n puntos k-dimensionales
-        KDTree(std::vector<Point>& points);
+        KDTree(const std::vector<Point>& points);
 
         // Constructor con n puntos k-dimensionales aleatorios
         KDTree(int N, int K);
@@ -54,7 +60,7 @@ class KDTree {
         void insert(const Point& p);
 
         //Retorna el punto mas cercano a p en un árbol no vacío
-        Point nearestNode(const Point& p);
+        KDTreeNode* nearestNode(const Point& p);
 
         // Destructor para liberar la memoria.
         ~KDTree();
