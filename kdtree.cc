@@ -122,12 +122,16 @@ KDTreeNode* KDTree::closest(const Point& n, KDTreeNode* temp, KDTreeNode* r) {
 }
 
 Point KDTree::nearestNode(const Point& p) {
-    return (nearestNode(root, p, 0)) -> point;
+    int nodeExpanded = 0;
+    Point point = (nearestNode(root, p, 0, nodeExpanded)) -> point;
+    std::cout << "Nodos visitados: " << nodeExpanded << std::endl;
+    return point;
 }
 
 
-KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth) {
+KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth, int& nodeExpanded) {
     if (r == nullptr) return nullptr;
+    nodeExpanded++;
 
     int d = depth%n.size();
     KDTreeNode* next;
@@ -141,7 +145,7 @@ KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth) {
         other = r -> left;
     }
 
-    KDTreeNode* temp = nearestNode(next, n, depth + 1);
+    KDTreeNode* temp = nearestNode(next, n, depth + 1, nodeExpanded);
     KDTreeNode* best = closest(n, temp, r);
 
 
@@ -149,7 +153,7 @@ KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth) {
     int distD = std::abs(n[d] - (r -> point[d]));
 
     if (bestRadius >= distD) {
-        temp = nearestNode(other, n, depth + 1);
+        temp = nearestNode(other, n, depth + 1, nodeExpanded);
         best = closest(n, temp, r);
     }
 
@@ -158,6 +162,13 @@ KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth) {
 
 void KDTree::printPoint(const Point& p) {
         //printear un punto
+    int k = p.size();
+        std::cout <<"(";
+        for (int i = 0; i < k; ++i) {
+            if (i != 0) std::cout << ", ";
+            std::cout << std::fixed << std::setprecision(2) << p[i];
+        }
+        std::cout << ")";
 }
 
 KDTree::~KDTree() {
@@ -208,14 +219,14 @@ int main() {
 
         t.print();
 
-        // Insertar un punto k-dimensional
-        Point p;
-        float x;
-        for (int i = 0; i < K; ++i) {
-            std::cin >> x;
-            p.push_back(x);
-            t.insert(p);
-        }
+        // // Insertar un punto k-dimensional
+        // Point p;
+        // float x;
+        // for (int i = 0; i < K; ++i) {
+        //     std::cin >> x;
+        //     p.push_back(x);
+        //     t.insert(p);
+        // }
 
         // Imprimir árbol
         t.print();
@@ -234,7 +245,7 @@ int main() {
             j.push_back(x);
         }
         std::cout << "Punto mas cercano:" << std::endl;
-        //printPoint(nearestNode(j));
+        printPoint(nearestNode(j));
     }
     
     return 0;
