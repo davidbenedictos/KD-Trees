@@ -70,7 +70,7 @@ void KDTree::printNode(const Point& p, int n) {
 }
 
 void KDTree::print() {
-        std::queue<std::pair<KDTreeNode*, int>> q;
+        std::queue<std::pair<KDTreeNode*, int> > q;
 
         if (root != nullptr) q.push(std::make_pair(root, 1));
         int lvl = 1;
@@ -187,12 +187,8 @@ int main() {
     std::cin >> N >> K;
 
     // Elegir modo de creacion
-    std::cout << "Elige modo de creación (0 es aleatorio y 1 es a mano):" << std::endl; 
-    bool modo;
-    std::cin >> modo;
 
-    if (modo) {
-        // Elegir nodos del arbol
+    // Elegir nodos del arbol
         std::vector<Point> v(N, Point(K));
         for (int i = 0; i < N; ++i) {
             for (int j = 0; j < K; ++j) std::cin >> v[i][j];
@@ -202,6 +198,7 @@ int main() {
         t.print();
 
         // Insertar un punto k-dimensional
+        /*
         Point p;
         float x;
         for (int i = 0; i < K; ++i) {
@@ -212,31 +209,8 @@ int main() {
 
         // Imprimir árbol
         t.print();
-    }
-    else {
-        // Generar árbol aleatorio
-        KDTree t(N,K);
-
-        t.print();
-
-        // // Insertar un punto k-dimensional
-        // Point p;
-        // float x;
-        // for (int i = 0; i < K; ++i) {
-        //     std::cin >> x;
-        //     p.push_back(x);
-        //     t.insert(p);
-        // }
-
-        // Imprimir árbol
-        t.print();
-        std::cout << std::endl;
-    }
-
-    std::cout << "Elige acción: Salir -> 0. Busqueda vecino mas cercano a un punto -> 1." << std::endl;
-    std::cin >> modo;
-
-    while (modo != 0) { 
+        */
+    while (true) { 
         std::cout << "Inserte las k coordenadas" << std::endl;
         Point j;
         float x;
@@ -245,7 +219,8 @@ int main() {
             j.push_back(x);
         }
         std::cout << "Punto mas cercano:" << std::endl;
-        printPoint(nearestNode(j));
+        t.printPoint(t.nearestNode(j));
+       std::cout << endl;
     }
     
     return 0;
