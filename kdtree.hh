@@ -34,13 +34,14 @@ class KDTree {
 
         void printNode(const Point& point, int n);
 
-        KDTreeNode* nearestNode(KDTreeNode* r, const Point& n, int depth);
+        KDTreeNode* nearestNode(KDTreeNode* r, const Point& n, int depth, int& nodeExpanded);
 
         //Retorna que punto esta mas cerca de n
         KDTreeNode* closest(const Point& n, KDTreeNode* temp, KDTreeNode* root);
 
         //Retorna la distancia entre el punto a y el punto b al quadrado 
         float dist(const Point& a, const Point& b);
+
 
     public:
 
