@@ -121,8 +121,8 @@ KDTreeNode* KDTree::closest(const Point& n, KDTreeNode* temp, KDTreeNode* r) {
     return r;
 }
 
-KDTreeNode* KDTree::nearestNode(const Point& p) {
-    return nearestNode(root, p, 0);
+Point KDTree::nearestNode(const Point& p) {
+    return (nearestNode(root, p, 0)) -> point;
 }
 
 
@@ -154,6 +154,10 @@ KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth) {
     }
 
     return best;
+}
+
+void KDTree::printPoint(const Point& p) {
+        //printear un punto
 }
 
 KDTree::~KDTree() {
@@ -215,6 +219,22 @@ int main() {
 
         // Imprimir árbol
         t.print();
+        std::cout << std::endl;
+    }
+
+    std::cout << "Elige acción: Salir -> 0. Busqueda vecino mas cercano a un punto -> 1." << std::endl;
+    std::cin >> modo;
+
+    while (modo != 0) { 
+        std::cout << "Inserte las k coordenadas" << std::endl;
+        Point j;
+        float x;
+        for (int i = 0; i < K; ++i) {
+            std::cin >> x;
+            j.push_back(x);
+        }
+        std::cout << "Punto mas cercano:" << std::endl;
+        //printPoint(nearestNode(j));
     }
     
     return 0;
