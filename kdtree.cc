@@ -1,5 +1,6 @@
 #include "kdtree.hh"
 
+
 //Constructor para arbol vacio
 
 KDTree::KDTree() : root(nullptr) {
@@ -124,7 +125,7 @@ KDTreeNode* KDTree::closest(const Point& n, KDTreeNode* temp, KDTreeNode* r) {
 Point KDTree::nearestNode(const Point& p) {
     int nodeExpanded = 0;
     Point point = (nearestNode(root, p, 0, nodeExpanded)) -> point;
-    std::cout << "Nodos visitados: " << nodeExpanded << std::endl;
+    std::cout << "Nodos visitados: " << (nodeExpanded) << std::endl;
     return point;
 }
 
@@ -132,9 +133,9 @@ Point KDTree::nearestNode(const Point& p) {
 KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth, int& nodeExpanded) {
     if (r == nullptr) return nullptr;
     nodeExpanded++;
-    std::cout << "Nodo actual: ";
-    printPoint(r -> point);
-    std::cout << std::endl;
+    //std::cout << "Nodo actual: ";
+    //printPoint(r -> point);
+   // std::cout << std::endl;
 
     int d = depth%n.size();
     KDTreeNode* next;
@@ -181,55 +182,6 @@ KDTree::~KDTree() {
 
 
 
-
-int main() {
-    // Ejemplo de uso:
-    
-
-    // Elegir tamaño 
-    std::cout << "Elige Número de nodos y número de variables:" << std::endl;
-    int N,K;
-    std::cin >> N >> K;
-
-    // Elegir modo de creacion
-
-    // Elegir nodos del arbol
-        std::vector<Point> v(N, Point(K));
-        for (int i = 0; i < N; ++i) {
-            for (int j = 0; j < K; ++j) std::cin >> v[i][j];
-        }
-        KDTree t(v);
-
-        t.print();
-
-        // Insertar un punto k-dimensional
-        /*
-        Point p;
-        float x;
-        for (int i = 0; i < K; ++i) {
-            std::cin >> x;
-            p.push_back(x);
-            t.insert(p);
-        }
-
-        // Imprimir árbol
-        t.print(); 
-        */
-    while (true) { 
-        std::cout << "Inserte las k coordenadas" << std::endl;
-        Point j;
-        float x;
-        for (int i = 0; i < K; ++i) {
-            std::cin >> x;
-            j.push_back(x);
-        }
-        std::cout << "Punto mas cercano:" << std::endl;
-        t.printPoint(t.nearestNode(j));
-       std::cout << std::endl;
-    }
-    
-    return 0;
-}
 
 /*
 7 2 1

@@ -8,6 +8,8 @@
 #include <queue>
 #include <iomanip>
 #include <math.h> 
+#include <cmath>
+using namespace std; 
 
 typedef std::vector<float> Point;
 
