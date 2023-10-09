@@ -23,18 +23,31 @@ The project consists of one _.cc_ and one _.hh_: file:
 ***
 The first file consists of the next functions, which do the following:
 > `KDTree::KDTree()`: Constructor for an empty k-d tree.
+> 
 > `KDTree::KDTree(const std::vector<Point>& points)`: Constructor that builds a k-d tree from a vector of points.
+> 
 > `KDTree::KDTree(int N, int K)`: Constructor that generates a k-d tree with random points.
+>
 > `KDTreeNode* KDTree::createNode(const Point& p)`: Creates a new node in the k-d tree with the specified point.
+>
 > `KDTreeNode* KDTree::insertPoint(KDTreeNode* r, const Point& p, int depth)`: Inserts a k-dimensional point into the tree.
-> `void KDTree::insert(const Point& p)`: Method to insert a point into the tree.
-> `void KDTree::printNode(const Point& p, int n)`: Prints a point with formatting.
-> `void KDTree::print()`: Prints the k-d tree.
+>
+>  `void KDTree::insert(const Point& p)`: Method to insert a point into the tree.
+>
+>  `void KDTree::printNode(const Point& p, int n)`: Prints a point with formatting.
+>
+>  `void KDTree::print()`: Prints the k-d tree.
+>
 > `void KDTree::destroyTree(KDTreeNode* node)`: Destroys the k-d tree and frees memory.
+>
 > `float KDTree::dist(const Point& a, const Point& b)`: Calculates the squared distance between two points.
+
 > `KDTreeNode* KDTree::closest(const Point& n, KDTreeNode* temp, KDTreeNode* r)`: Finds the closest point to a given point.
-> `Point KDTree::nearestNode(const Point& p)`: Finds the nearest node to a given point.
-> `KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth, int& nodeExpanded)`: Helper function for finding the nearest node.
+>
+>  `Point KDTree::nearestNode(const Point& p)`: Finds the nearest node to a given point.
+>
+>  `KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth, int& nodeExpanded)`: Helper function for finding the nearest node.
+>
 > `void KDTree::printPoint(const Point& p)`: Prints a point.
 
 The second file, `kdtree.hh`, contains the class definition for KDTree and the Point data type, along with declarations of the methods described above.
