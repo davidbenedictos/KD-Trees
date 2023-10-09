@@ -117,7 +117,7 @@ KDTreeNode* KDTree::closest(const Point& n, KDTreeNode* temp, KDTreeNode* r) {
     float distanceRoot = dist(n, r -> point);
     float distanceTemp = dist(n, temp -> point);
 
-    if (distanceTemp <= distanceRoot) return temp;
+    if (distanceTemp < distanceRoot) return temp;
     return r;
 }
 
@@ -132,6 +132,9 @@ Point KDTree::nearestNode(const Point& p) {
 KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth, int& nodeExpanded) {
     if (r == nullptr) return nullptr;
     nodeExpanded++;
+    std::cout << "Nodo actual: ";
+    printPoint(r -> point);
+    std::cout << std::endl;
 
     int d = depth%n.size();
     KDTreeNode* next;
@@ -154,7 +157,7 @@ KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth, int& n
 
     if (bestRadius >= distD) {
         temp = nearestNode(other, n, depth + 1, nodeExpanded);
-        best = closest(n, temp, r);
+        best = closest(n, temp, best);
     }
 
     return best;
@@ -175,6 +178,8 @@ KDTree::~KDTree() {
     // Implementa la eliminación de nodos y liberación de memoria aquí.
     destroyTree(root);
 }
+
+
 
 
 int main() {
@@ -220,7 +225,7 @@ int main() {
         }
         std::cout << "Punto mas cercano:" << std::endl;
         t.printPoint(t.nearestNode(j));
-       std::cout << endl;
+       std::cout << std::endl;
     }
     
     return 0;
