@@ -152,8 +152,8 @@ KDTreeNode* KDTree::nearestNode(KDTreeNode* r, const Point& n, int depth, int& n
     KDTreeNode* best = closest(n, temp, r);
 
 
-    int bestRadius = dist(n, best -> point); 
-    int distD = std::abs(n[d] - (r -> point[d]));
+    float bestRadius = dist(n, best -> point); 
+    float distD = std::abs(n[d] - (r -> point[d]));
 
     if (bestRadius >= distD) {
         temp = nearestNode(other, n, depth + 1, nodeExpanded);
@@ -213,7 +213,7 @@ int main() {
         }
 
         // Imprimir árbol
-        t.print();
+        t.print(); 
         */
     while (true) { 
         std::cout << "Inserte las k coordenadas" << std::endl;
