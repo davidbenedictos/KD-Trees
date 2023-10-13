@@ -10,10 +10,10 @@ int main() {
     std::uniform_real_distribution<double> dist(0, 1);
     Point p;
     while(cin >> N){
-         for(int i = 2; i <= 10; ++i){
+         for(int i = 2; i <= 6; ++i){
             cout << "Creamos arbol con k = " << i << endl;
             KDTree t(N, i);
-            for(int k = 0; k < 5; ++k){
+            for(int k = 0; k < 30; ++k){
                 Point p(i);
                 for(int j = 0; j < i ; ++j){
                     p[j] =   dist(mt);
