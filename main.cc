@@ -24,9 +24,9 @@ int main() {
                 }
                 cout << "Resultado " << k+1 << " ";
                 t.nearestNode(p, nodeExpanded);
-             //   media += nodeExpanded;
+                media += nodeExpanded;
             }
-           // media /= 30.0;
+            media /= 30.0;
             cout << "Media para k= " << i << " : " << media << endl;
             cout << endl;
 

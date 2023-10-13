@@ -122,10 +122,10 @@ KDTreeNode* KDTree::closest(const Point& n, KDTreeNode* temp, KDTreeNode* r) {
     return r;
 }
 
-Point KDTree::nearestNode(const Point& p, int& nodexpanded) {
+Point KDTree::nearestNode(const Point& p, int & nodexpanded) {
  
-    Point point = (nearestNode(root, p, 0, nodeExpanded)) -> point;
-    std::cout << "Nodos visitados: " << (nodeExpanded) << std::endl;
+    Point point = (nearestNode(root, p, 0, nodexpanded)) -> point;
+    std::cout << "Nodos visitados: " << (nodexpanded) << std::endl;
     return point;
 }
 

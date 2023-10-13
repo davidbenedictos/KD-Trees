@@ -63,7 +63,7 @@ class KDTree {
         void insert(const Point& p);
 
         //Retorna el punto mas cercano a p en un árbol no vacío
-        Point nearestNode(const Point& p, int& nodexpanded);
+        Point nearestNode(const Point& p, int & nodexpanded);
 
         bool isEmpty();
 
