@@ -1,0 +1,6383 @@
+Número de árboles = 10
+Número de nodos por árbol = [1000, 100000]
+Número de consultas por árbol = 1000
+
+[Número de nodos = 1000]
+[k = 2]
+
+Árbol 1
+Media = 15.369
+Árbol 2
+Media = 23.289
+Árbol 3
+Media = 23.972
+Árbol 4
+Media = 23.209
+Árbol 5
+Media = 23.612
+Árbol 6
+Media = 24.147
+Árbol 7
+Media = 23.121
+Árbol 8
+Media = 23.867
+Árbol 9
+Media = 23.892
+Árbol 10
+Media = 23.622
+
+[k = 3]
+
+Árbol 1
+Media = 48.105
+Árbol 2
+Media = 46.669
+Árbol 3
+Media = 47.321
+Árbol 4
+Media = 44.869
+Árbol 5
+Media = 49.334
+Árbol 6
+Media = 46.699
+Árbol 7
+Media = 46.086
+Árbol 8
+Media = 46.976
+Árbol 9
+Media = 45.271
+Árbol 10
+Media = 47.536
+
+[k = 4]
+
+Árbol 1
+Media = 121.869
+Árbol 2
+Media = 122.736
+Árbol 3
+Media = 129.421
+Árbol 4
+Media = 127.386
+Árbol 5
+Media = 127.052
+Árbol 6
+Media = 128.066
+Árbol 7
+Media = 127.901
+Árbol 8
+Media = 123.74
+Árbol 9
+Media = 123.253
+Árbol 10
+Media = 123.472
+
+[k = 5]
+
+Árbol 1
+Media = 217.168
+Árbol 2
+Media = 209.413
+Árbol 3
+Media = 222.924
+Árbol 4
+Media = 218.42
+Árbol 5
+Media = 219.063
+Árbol 6
+Media = 220.985
+Árbol 7
+Media = 215.575
+Árbol 8
+Media = 227.342
+Árbol 9
+Media = 218.832
+Árbol 10
+Media = 219.151
+
+[k = 6]
+
+Árbol 1
+Media = 373.228
+Árbol 2
+Media = 395.63
+Árbol 3
+Media = 378.475
+Árbol 4
+Media = 382.047
+Árbol 5
+Media = 384.83
+Árbol 6
+Media = 374.455
+Árbol 7
+Media = 394.268
+Árbol 8
+Media = 379.387
+Árbol 9
+Media = 373.392
+Árbol 10
+Media = 385.824
+
+[Número de nodos = 2000]
+[k = 2]
+
+Árbol 1
+Media = 27.53
+Árbol 2
+Media = 26.853
+Árbol 3
+Media = 26.665
+Árbol 4
+Media = 25.91
+Árbol 5
+Media = 25.739
+Árbol 6
+Media = 26.868
+Árbol 7
+Media = 27.242
+Árbol 8
+Media = 26.926
+Árbol 9
+Media = 25.811
+Árbol 10
+Media = 26.666
+
+[k = 3]
+
+Árbol 1
+Media = 57.416
+Árbol 2
+Media = 60.165
+Árbol 3
+Media = 60.213
+Árbol 4
+Media = 60.632
+Árbol 5
+Media = 58.922
+Árbol 6
+Media = 60.249
+Árbol 7
+Media = 60.989
+Árbol 8
+Media = 60.33
+Árbol 9
+Media = 59.196
+Árbol 10
+Media = 59.788
+
+[k = 4]
+
+Árbol 1
+Media = 150.173
+Árbol 2
+Media = 144.588
+Árbol 3
+Media = 137.828
+Árbol 4
+Media = 140.908
+Árbol 5
+Media = 140.783
+Árbol 6
+Media = 142.431
+Árbol 7
+Media = 150.243
+Árbol 8
+Media = 142.498
+Árbol 9
+Media = 144.465
+Árbol 10
+Media = 147.995
+
+[k = 5]
+
+Árbol 1
+Media = 338.185
+Árbol 2
+Media = 339.1
+Árbol 3
+Media = 327.113
+Árbol 4
+Media = 321.725
+Árbol 5
+Media = 337.672
+Árbol 6
+Media = 334.104
+Árbol 7
+Media = 271.705
+Árbol 8
+Media = 278.578
+Árbol 9
+Media = 285.049
+Árbol 10
+Media = 281.596
+
+[k = 6]
+
+Árbol 1
+Media = 569.966
+Árbol 2
+Media = 570.301
+Árbol 3
+Media = 572.536
+Árbol 4
+Media = 575.425
+Árbol 5
+Media = 581.443
+Árbol 6
+Media = 626.664
+Árbol 7
+Media = 663.597
+Árbol 8
+Media = 654.495
+Árbol 9
+Media = 649.877
+Árbol 10
+Media = 649.622
+
+[Número de nodos = 3000]
+[k = 2]
+
+Árbol 1
+Media = 30.069
+Árbol 2
+Media = 29.555
+Árbol 3
+Media = 30.046
+Árbol 4
+Media = 29.205
+Árbol 5
+Media = 28.768
+Árbol 6
+Media = 29.233
+Árbol 7
+Media = 29.638
+Árbol 8
+Media = 30.226
+Árbol 9
+Media = 29.464
+Árbol 10
+Media = 29.695
+
+[k = 3]
+
+Árbol 1
+Media = 63.94
+Árbol 2
+Media = 62.601
+Árbol 3
+Media = 63.111
+Árbol 4
+Media = 59.353
+Árbol 5
+Media = 63.462
+Árbol 6
+Media = 69.056
+Árbol 7
+Media = 68.963
+Árbol 8
+Media = 71.117
+Árbol 9
+Media = 68.96
+Árbol 10
+Media = 69.95
+
+[k = 4]
+
+Árbol 1
+Media = 147.189
+Árbol 2
+Media = 155.383
+Árbol 3
+Media = 153.11
+Árbol 4
+Media = 159.561
+Árbol 5
+Media = 153.96
+Árbol 6
+Media = 146.769
+Árbol 7
+Media = 156.256
+Árbol 8
+Media = 157.641
+Árbol 9
+Media = 150.554
+Árbol 10
+Media = 149.212
+
+[k = 5]
+
+Árbol 1
+Media = 403.902
+Árbol 2
+Media = 416.542
+Árbol 3
+Media = 415.661
+Árbol 4
+Media = 407.152
+Árbol 5
+Media = 416.506
+Árbol 6
+Media = 408.766
+Árbol 7
+Media = 398.827
+Árbol 8
+Media = 383.469
+Árbol 9
+Media = 400.312
+Árbol 10
+Media = 394.149
+
+[k = 6]
+
+Árbol 1
+Media = 671.87
+Árbol 2
+Media = 690.518
+Árbol 3
+Media = 668.907
+Árbol 4
+Media = 670.128
+Árbol 5
+Media = 684.525
+Árbol 6
+Media = 704.485
+Árbol 7
+Media = 693.107
+Árbol 8
+Media = 698.642
+Árbol 9
+Media = 703.734
+Árbol 10
+Media = 730.078
+
+[Número de nodos = 4000]
+[k = 2]
+
+Árbol 1
+Media = 29.987
+Árbol 2
+Media = 29.727
+Árbol 3
+Media = 29.622
+Árbol 4
+Media = 29.424
+Árbol 5
+Media = 29.555
+Árbol 6
+Media = 29.296
+Árbol 7
+Media = 30.034
+Árbol 8
+Media = 29.592
+Árbol 9
+Media = 29.187
+Árbol 10
+Media = 29.427
+
+[k = 3]
+
+Árbol 1
+Media = 67.417
+Árbol 2
+Media = 67.07
+Árbol 3
+Media = 65.102
+Árbol 4
+Media = 66.878
+Árbol 5
+Media = 65.287
+Árbol 6
+Media = 67.132
+Árbol 7
+Media = 67.895
+Árbol 8
+Media = 66.202
+Árbol 9
+Media = 66.833
+Árbol 10
+Media = 66.297
+
+[k = 4]
+
+Árbol 1
+Media = 191.922
+Árbol 2
+Media = 187.14
+Árbol 3
+Media = 190.271
+Árbol 4
+Media = 199.758
+Árbol 5
+Media = 191.623
+Árbol 6
+Media = 191.026
+Árbol 7
+Media = 197.972
+Árbol 8
+Media = 197.785
+Árbol 9
+Media = 190.289
+Árbol 10
+Media = 191.187
+
+[k = 5]
+
+Árbol 1
+Media = 431.202
+Árbol 2
+Media = 385.634
+Árbol 3
+Media = 413.502
+Árbol 4
+Media = 427.665
+Árbol 5
+Media = 416.388
+Árbol 6
+Media = 392.925
+Árbol 7
+Media = 392.449
+Árbol 8
+Media = 411.589
+Árbol 9
+Media = 422.945
+Árbol 10
+Media = 398.292
+
+[k = 6]
+
+Árbol 1
+Media = 868.082
+Árbol 2
+Media = 842.898
+Árbol 3
+Media = 809.02
+Árbol 4
+Media = 836.062
+Árbol 5
+Media = 833.155
+Árbol 6
+Media = 852.473
+Árbol 7
+Media = 850.764
+Árbol 8
+Media = 867.458
+Árbol 9
+Media = 875.053
+Árbol 10
+Media = 820.636
+
+[Número de nodos = 5000]
+[k = 2]
+
+Árbol 1
+Media = 27.83
+Árbol 2
+Media = 27.888
+Árbol 3
+Media = 27.843
+Árbol 4
+Media = 27.715
+Árbol 5
+Media = 27.775
+Árbol 6
+Media = 27.578
+Árbol 7
+Media = 27.709
+Árbol 8
+Media = 28.589
+Árbol 9
+Media = 28.24
+Árbol 10
+Media = 28.083
+
+[k = 3]
+
+Árbol 1
+Media = 63.8
+Árbol 2
+Media = 64.9
+Árbol 3
+Media = 65.355
+Árbol 4
+Media = 64.526
+Árbol 5
+Media = 65.868
+Árbol 6
+Media = 65.043
+Árbol 7
+Media = 65.475
+Árbol 8
+Media = 65.701
+Árbol 9
+Media = 64.913
+Árbol 10
+Media = 60.597
+
+[k = 4]
+
+Árbol 1
+Media = 191.208
+Árbol 2
+Media = 194.3
+Árbol 3
+Media = 196.479
+Árbol 4
+Media = 187.868
+Árbol 5
+Media = 180.712
+Árbol 6
+Media = 190.562
+Árbol 7
+Media = 185.966
+Árbol 8
+Media = 192.775
+Árbol 9
+Media = 191.855
+Árbol 10
+Media = 188.641
+
+[k = 5]
+
+Árbol 1
+Media = 484.503
+Árbol 2
+Media = 446.953
+Árbol 3
+Media = 428.647
+Árbol 4
+Media = 426.227
+Árbol 5
+Media = 431.636
+Árbol 6
+Media = 444.493
+Árbol 7
+Media = 444.382
+Árbol 8
+Media = 440.725
+Árbol 9
+Media = 438.321
+Árbol 10
+Media = 452.494
+
+[k = 6]
+
+Árbol 1
+Media = 947.362
+Árbol 2
+Media = 989.794
+Árbol 3
+Media = 1024.94
+Árbol 4
+Media = 976.846
+Árbol 5
+Media = 931.749
+Árbol 6
+Media = 877.289
+Árbol 7
+Media = 915.256
+Árbol 8
+Media = 888.29
+Árbol 9
+Media = 906.005
+Árbol 10
+Media = 924.266
+
+[Número de nodos = 6000]
+[k = 2]
+
+Árbol 1
+Media = 28.747
+Árbol 2
+Media = 29.582
+Árbol 3
+Media = 29.705
+Árbol 4
+Media = 29.062
+Árbol 5
+Media = 28.923
+Árbol 6
+Media = 29.443
+Árbol 7
+Media = 28.944
+Árbol 8
+Media = 29.206
+Árbol 9
+Media = 29.387
+Árbol 10
+Media = 28.535
+
+[k = 3]
+
+Árbol 1
+Media = 71.983
+Árbol 2
+Media = 71.913
+Árbol 3
+Media = 71.506
+Árbol 4
+Media = 73.645
+Árbol 5
+Media = 71.34
+Árbol 6
+Media = 74.824
+Árbol 7
+Media = 72.375
+Árbol 8
+Media = 70.401
+Árbol 9
+Media = 72.49
+Árbol 10
+Media = 72.669
+
+[k = 4]
+
+Árbol 1
+Media = 190.709
+Árbol 2
+Media = 195.042
+Árbol 3
+Media = 182.467
+Árbol 4
+Media = 184.847
+Árbol 5
+Media = 191.648
+Árbol 6
+Media = 192.618
+Árbol 7
+Media = 187.071
+Árbol 8
+Media = 188.873
+Árbol 9
+Media = 183.222
+Árbol 10
+Media = 187.368
+
+[k = 5]
+
+Árbol 1
+Media = 519.382
+Árbol 2
+Media = 535.502
+Árbol 3
+Media = 528.624
+Árbol 4
+Media = 512.017
+Árbol 5
+Media = 545.199
+Árbol 6
+Media = 515.916
+Árbol 7
+Media = 552.574
+Árbol 8
+Media = 460.845
+Árbol 9
+Media = 469.463
+Árbol 10
+Media = 479.878
+
+[k = 6]
+
+Árbol 1
+Media = 1004.16
+Árbol 2
+Media = 1005.44
+Árbol 3
+Media = 1036.14
+Árbol 4
+Media = 1045.3
+Árbol 5
+Media = 1016.07
+Árbol 6
+Media = 1034.57
+Árbol 7
+Media = 1073.5
+Árbol 8
+Media = 1070.92
+Árbol 9
+Media = 1067.54
+Árbol 10
+Media = 1066.4
+
+[Número de nodos = 7000]
+[k = 2]
+
+Árbol 1
+Media = 31.342
+Árbol 2
+Media = 31.061
+Árbol 3
+Media = 31.147
+Árbol 4
+Media = 31.288
+Árbol 5
+Media = 31.772
+Árbol 6
+Media = 32.177
+Árbol 7
+Media = 31.436
+Árbol 8
+Media = 30.883
+Árbol 9
+Media = 31.679
+Árbol 10
+Media = 31.494
+
+[k = 3]
+
+Árbol 1
+Media = 75.972
+Árbol 2
+Media = 76.53
+Árbol 3
+Media = 76.671
+Árbol 4
+Media = 74.317
+Árbol 5
+Media = 78.571
+Árbol 6
+Media = 77.726
+Árbol 7
+Media = 78.324
+Árbol 8
+Media = 75.853
+Árbol 9
+Media = 75.607
+Árbol 10
+Media = 74.598
+
+[k = 4]
+
+Árbol 1
+Media = 225.518
+Árbol 2
+Media = 221.237
+Árbol 3
+Media = 207.422
+Árbol 4
+Media = 215.809
+Árbol 5
+Media = 214.465
+Árbol 6
+Media = 210.896
+Árbol 7
+Media = 213.831
+Árbol 8
+Media = 219.505
+Árbol 9
+Media = 185.584
+Árbol 10
+Media = 197.185
+
+[k = 5]
+
+Árbol 1
+Media = 517.318
+Árbol 2
+Media = 507.321
+Árbol 3
+Media = 530.597
+Árbol 4
+Media = 513.132
+Árbol 5
+Media = 500.884
+Árbol 6
+Media = 537.692
+Árbol 7
+Media = 496.061
+Árbol 8
+Media = 717.656
+Árbol 9
+Media = 667.412
+Árbol 10
+Media = 706.441
+
+[k = 6]
+
+Árbol 1
+Media = 1150.73
+Árbol 2
+Media = 1161.06
+Árbol 3
+Media = 1149.94
+Árbol 4
+Media = 1166.76
+Árbol 5
+Media = 1179.36
+Árbol 6
+Media = 1115.39
+Árbol 7
+Media = 1114.16
+Árbol 8
+Media = 1073.48
+Árbol 9
+Media = 1118.04
+Árbol 10
+Media = 1134.62
+
+[Número de nodos = 8000]
+[k = 2]
+
+Árbol 1
+Media = 31.245
+Árbol 2
+Media = 31.499
+Árbol 3
+Media = 30.483
+Árbol 4
+Media = 31.315
+Árbol 5
+Media = 30.905
+Árbol 6
+Media = 30.908
+Árbol 7
+Media = 31.241
+Árbol 8
+Media = 31.048
+Árbol 9
+Media = 30.493
+Árbol 10
+Media = 30.926
+
+[k = 3]
+
+Árbol 1
+Media = 72.101
+Árbol 2
+Media = 74.534
+Árbol 3
+Media = 72.597
+Árbol 4
+Media = 76.517
+Árbol 5
+Media = 74.084
+Árbol 6
+Media = 76.094
+Árbol 7
+Media = 73.489
+Árbol 8
+Media = 73.87
+Árbol 9
+Media = 72.162
+Árbol 10
+Media = 72.897
+
+[k = 4]
+
+Árbol 1
+Media = 221.355
+Árbol 2
+Media = 223.02
+Árbol 3
+Media = 218.093
+Árbol 4
+Media = 210.921
+Árbol 5
+Media = 217.08
+Árbol 6
+Media = 217.742
+Árbol 7
+Media = 220.8
+Árbol 8
+Media = 208.474
+Árbol 9
+Media = 208.852
+Árbol 10
+Media = 211.558
+
+[k = 5]
+
+Árbol 1
+Media = 610.429
+Árbol 2
+Media = 606.8
+Árbol 3
+Media = 623.976
+Árbol 4
+Media = 604.883
+Árbol 5
+Media = 620.114
+Árbol 6
+Media = 603.985
+Árbol 7
+Media = 595.263
+Árbol 8
+Media = 616.457
+Árbol 9
+Media = 607.492
+Árbol 10
+Media = 579.82
+
+[k = 6]
+
+Árbol 1
+Media = 1204.42
+Árbol 2
+Media = 1278.73
+Árbol 3
+Media = 1271.48
+Árbol 4
+Media = 1222.93
+Árbol 5
+Media = 1264.76
+Árbol 6
+Media = 1286.14
+Árbol 7
+Media = 1245.76
+Árbol 8
+Media = 1276.55
+Árbol 9
+Media = 1306.26
+Árbol 10
+Media = 1272.04
+
+[Número de nodos = 9000]
+[k = 2]
+
+Árbol 1
+Media = 29.995
+Árbol 2
+Media = 30.148
+Árbol 3
+Media = 30.065
+Árbol 4
+Media = 30.367
+Árbol 5
+Media = 29.903
+Árbol 6
+Media = 30.176
+Árbol 7
+Media = 30.556
+Árbol 8
+Media = 29.739
+Árbol 9
+Media = 30.655
+Árbol 10
+Media = 29.496
+
+[k = 3]
+
+Árbol 1
+Media = 72.235
+Árbol 2
+Media = 73.042
+Árbol 3
+Media = 70.576
+Árbol 4
+Media = 73.805
+Árbol 5
+Media = 70.95
+Árbol 6
+Media = 74.937
+Árbol 7
+Media = 71.762
+Árbol 8
+Media = 71.025
+Árbol 9
+Media = 70.702
+Árbol 10
+Media = 73.4
+
+[k = 4]
+
+Árbol 1
+Media = 204.407
+Árbol 2
+Media = 212.374
+Árbol 3
+Media = 208.551
+Árbol 4
+Media = 209.737
+Árbol 5
+Media = 213.012
+Árbol 6
+Media = 216.364
+Árbol 7
+Media = 224.641
+Árbol 8
+Media = 229.464
+Árbol 9
+Media = 229.224
+Árbol 10
+Media = 230.665
+
+[k = 5]
+
+Árbol 1
+Media = 643.024
+Árbol 2
+Media = 614.121
+Árbol 3
+Media = 653.509
+Árbol 4
+Media = 649.926
+Árbol 5
+Media = 644.121
+Árbol 6
+Media = 590.132
+Árbol 7
+Media = 546.161
+Árbol 8
+Media = 573.604
+Árbol 9
+Media = 577.626
+Árbol 10
+Media = 558.561
+
+[k = 6]
+
+Árbol 1
+Media = 1167.38
+Árbol 2
+Media = 1199.71
+Árbol 3
+Media = 1211.41
+Árbol 4
+Media = 1206.62
+Árbol 5
+Media = 1433.04
+Árbol 6
+Media = 1438.15
+Árbol 7
+Media = 1442.1
+Árbol 8
+Media = 1330.93
+Árbol 9
+Media = 1308.42
+Árbol 10
+Media = 1239.34
+
+[Número de nodos = 10000]
+[k = 2]
+
+Árbol 1
+Media = 31.502
+Árbol 2
+Media = 30.84
+Árbol 3
+Media = 31.444
+Árbol 4
+Media = 31.203
+Árbol 5
+Media = 30.652
+Árbol 6
+Media = 31.833
+Árbol 7
+Media = 31.063
+Árbol 8
+Media = 31.205
+Árbol 9
+Media = 31.154
+Árbol 10
+Media = 30.855
+
+[k = 3]
+
+Árbol 1
+Media = 75.254
+Árbol 2
+Media = 73.81
+Árbol 3
+Media = 73.896
+Árbol 4
+Media = 76.781
+Árbol 5
+Media = 77.907
+Árbol 6
+Media = 73.949
+Árbol 7
+Media = 75.787
+Árbol 8
+Media = 75.764
+Árbol 9
+Media = 77.199
+Árbol 10
+Media = 74.884
+
+[k = 4]
+
+Árbol 1
+Media = 237.018
+Árbol 2
+Media = 246.148
+Árbol 3
+Media = 241.204
+Árbol 4
+Media = 253.521
+Árbol 5
+Media = 234.766
+Árbol 6
+Media = 236.862
+Árbol 7
+Media = 237.586
+Árbol 8
+Media = 242.455
+Árbol 9
+Media = 245.23
+Árbol 10
+Media = 238.976
+
+[k = 5]
+
+Árbol 1
+Media = 579.939
+Árbol 2
+Media = 624.88
+Árbol 3
+Media = 620.669
+Árbol 4
+Media = 644.198
+Árbol 5
+Media = 609.258
+Árbol 6
+Media = 605.209
+Árbol 7
+Media = 619.838
+Árbol 8
+Media = 618.477
+Árbol 9
+Media = 607.026
+Árbol 10
+Media = 614.917
+
+[k = 6]
+
+Árbol 1
+Media = 1299.5
+Árbol 2
+Media = 1442.6
+Árbol 3
+Media = 1442.79
+Árbol 4
+Media = 1363.38
+Árbol 5
+Media = 1414.11
+Árbol 6
+Media = 1413.07
+Árbol 7
+Media = 1347.44
+Árbol 8
+Media = 1446.71
+Árbol 9
+Media = 1395.47
+Árbol 10
+Media = 1525.77
+
+[Número de nodos = 11000]
+[k = 2]
+
+Árbol 1
+Media = 31.705
+Árbol 2
+Media = 31.899
+Árbol 3
+Media = 31.606
+Árbol 4
+Media = 31.678
+Árbol 5
+Media = 31.822
+Árbol 6
+Media = 31.945
+Árbol 7
+Media = 31.348
+Árbol 8
+Media = 31.536
+Árbol 9
+Media = 31.785
+Árbol 10
+Media = 32.03
+
+[k = 3]
+
+Árbol 1
+Media = 78.353
+Árbol 2
+Media = 79.711
+Árbol 3
+Media = 78.707
+Árbol 4
+Media = 80.252
+Árbol 5
+Media = 80.232
+Árbol 6
+Media = 76.902
+Árbol 7
+Media = 76.893
+Árbol 8
+Media = 80.444
+Árbol 9
+Media = 79.895
+Árbol 10
+Media = 79.284
+
+[k = 4]
+
+Árbol 1
+Media = 225.141
+Árbol 2
+Media = 234.632
+Árbol 3
+Media = 233.279
+Árbol 4
+Media = 239.074
+Árbol 5
+Media = 240.898
+Árbol 6
+Media = 242.628
+Árbol 7
+Media = 245.692
+Árbol 8
+Media = 229.878
+Árbol 9
+Media = 233.274
+Árbol 10
+Media = 231.809
+
+[k = 5]
+
+Árbol 1
+Media = 677.362
+Árbol 2
+Media = 651.44
+Árbol 3
+Media = 653.097
+Árbol 4
+Media = 619.96
+Árbol 5
+Media = 660.757
+Árbol 6
+Media = 636.614
+Árbol 7
+Media = 614.53
+Árbol 8
+Media = 635.493
+Árbol 9
+Media = 686.229
+Árbol 10
+Media = 683.072
+
+[k = 6]
+
+Árbol 1
+Media = 1555.5
+Árbol 2
+Media = 1550.91
+Árbol 3
+Media = 1294.83
+Árbol 4
+Media = 1287.89
+Árbol 5
+Media = 1334.38
+Árbol 6
+Media = 1364.29
+Árbol 7
+Media = 1452.88
+Árbol 8
+Media = 1525.63
+Árbol 9
+Media = 1485.76
+Árbol 10
+Media = 1449.58
+
+[Número de nodos = 12000]
+[k = 2]
+
+Árbol 1
+Media = 32.548
+Árbol 2
+Media = 32.479
+Árbol 3
+Media = 32.263
+Árbol 4
+Media = 32.059
+Árbol 5
+Media = 33.435
+Árbol 6
+Media = 32.069
+Árbol 7
+Media = 32.363
+Árbol 8
+Media = 32.62
+Árbol 9
+Media = 32.779
+Árbol 10
+Media = 32.386
+
+[k = 3]
+
+Árbol 1
+Media = 74.173
+Árbol 2
+Media = 72.08
+Árbol 3
+Media = 73.355
+Árbol 4
+Media = 72.174
+Árbol 5
+Media = 70.898
+Árbol 6
+Media = 70.587
+Árbol 7
+Media = 74.162
+Árbol 8
+Media = 70.191
+Árbol 9
+Media = 70.058
+Árbol 10
+Media = 74.023
+
+[k = 4]
+
+Árbol 1
+Media = 228.395
+Árbol 2
+Media = 240.511
+Árbol 3
+Media = 236.597
+Árbol 4
+Media = 246.861
+Árbol 5
+Media = 220.493
+Árbol 6
+Media = 216.156
+Árbol 7
+Media = 220.239
+Árbol 8
+Media = 218.964
+Árbol 9
+Media = 213.892
+Árbol 10
+Media = 219.73
+
+[k = 5]
+
+Árbol 1
+Media = 631.546
+Árbol 2
+Media = 594.87
+Árbol 3
+Media = 616.576
+Árbol 4
+Media = 621.108
+Árbol 5
+Media = 554.443
+Árbol 6
+Media = 576.249
+Árbol 7
+Media = 596.221
+Árbol 8
+Media = 575.867
+Árbol 9
+Media = 583.306
+Árbol 10
+Media = 570.293
+
+[k = 6]
+
+Árbol 1
+Media = 1462.17
+Árbol 2
+Media = 1366.45
+Árbol 3
+Media = 1384.52
+Árbol 4
+Media = 1490.43
+Árbol 5
+Media = 1504
+Árbol 6
+Media = 1517.12
+Árbol 7
+Media = 1346.8
+Árbol 8
+Media = 1399.88
+Árbol 9
+Media = 1484.39
+Árbol 10
+Media = 1541.89
+
+[Número de nodos = 13000]
+[k = 2]
+
+Árbol 1
+Media = 33.568
+Árbol 2
+Media = 32.91
+Árbol 3
+Media = 32.559
+Árbol 4
+Media = 32.324
+Árbol 5
+Media = 32.77
+Árbol 6
+Media = 32.653
+Árbol 7
+Media = 32.297
+Árbol 8
+Media = 32.538
+Árbol 9
+Media = 31.689
+Árbol 10
+Media = 31.325
+
+[k = 3]
+
+Árbol 1
+Media = 77.424
+Árbol 2
+Media = 72.318
+Árbol 3
+Media = 72.71
+Árbol 4
+Media = 72.927
+Árbol 5
+Media = 73.054
+Árbol 6
+Media = 71.363
+Árbol 7
+Media = 71.472
+Árbol 8
+Media = 71.69
+Árbol 9
+Media = 71.942
+Árbol 10
+Media = 74.907
+
+[k = 4]
+
+Árbol 1
+Media = 226.281
+Árbol 2
+Media = 223.142
+Árbol 3
+Media = 223.081
+Árbol 4
+Media = 216.25
+Árbol 5
+Media = 219.192
+Árbol 6
+Media = 216.87
+Árbol 7
+Media = 223.063
+Árbol 8
+Media = 219.526
+Árbol 9
+Media = 217.058
+Árbol 10
+Media = 222.819
+
+[k = 5]
+
+Árbol 1
+Media = 778.561
+Árbol 2
+Media = 783.24
+Árbol 3
+Media = 818.023
+Árbol 4
+Media = 786.487
+Árbol 5
+Media = 809.307
+Árbol 6
+Media = 737.191
+Árbol 7
+Media = 743.16
+Árbol 8
+Media = 733.262
+Árbol 9
+Media = 753.358
+Árbol 10
+Media = 735.247
+
+[k = 6]
+
+Árbol 1
+Media = 1472.14
+Árbol 2
+Media = 1467.4
+Árbol 3
+Media = 1501.39
+Árbol 4
+Media = 1398.59
+Árbol 5
+Media = 1433.54
+Árbol 6
+Media = 1432.77
+Árbol 7
+Media = 1560.44
+Árbol 8
+Media = 1558.95
+Árbol 9
+Media = 1468.78
+Árbol 10
+Media = 1555.93
+
+[Número de nodos = 14000]
+[k = 2]
+
+Árbol 1
+Media = 34.974
+Árbol 2
+Media = 33.222
+Árbol 3
+Media = 32.641
+Árbol 4
+Media = 33.809
+Árbol 5
+Media = 32.369
+Árbol 6
+Media = 32.475
+Árbol 7
+Media = 33.443
+Árbol 8
+Media = 31.746
+Árbol 9
+Media = 32.846
+Árbol 10
+Media = 32.284
+
+[k = 3]
+
+Árbol 1
+Media = 84.038
+Árbol 2
+Media = 84.632
+Árbol 3
+Media = 84.915
+Árbol 4
+Media = 84.786
+Árbol 5
+Media = 82.652
+Árbol 6
+Media = 83.231
+Árbol 7
+Media = 84.497
+Árbol 8
+Media = 85.702
+Árbol 9
+Media = 82.389
+Árbol 10
+Media = 83.53
+
+[k = 4]
+
+Árbol 1
+Media = 281.692
+Árbol 2
+Media = 281.391
+Árbol 3
+Media = 273.727
+Árbol 4
+Media = 273.319
+Árbol 5
+Media = 280.038
+Árbol 6
+Media = 284.22
+Árbol 7
+Media = 221.94
+Árbol 8
+Media = 226.153
+Árbol 9
+Media = 232.815
+Árbol 10
+Media = 222.325
+
+[k = 5]
+
+Árbol 1
+Media = 674.872
+Árbol 2
+Media = 726.021
+Árbol 3
+Media = 697.039
+Árbol 4
+Media = 684.248
+Árbol 5
+Media = 675.951
+Árbol 6
+Media = 686.075
+Árbol 7
+Media = 652.309
+Árbol 8
+Media = 653.083
+Árbol 9
+Media = 664.969
+Árbol 10
+Media = 624.675
+
+[k = 6]
+
+Árbol 1
+Media = 1599.21
+Árbol 2
+Media = 1538.51
+Árbol 3
+Media = 1553.87
+Árbol 4
+Media = 1581.53
+Árbol 5
+Media = 1621.53
+Árbol 6
+Media = 1466.98
+Árbol 7
+Media = 1446.41
+Árbol 8
+Media = 1448.96
+Árbol 9
+Media = 1523.83
+Árbol 10
+Media = 1481.55
+
+[Número de nodos = 15000]
+[k = 2]
+
+Árbol 1
+Media = 31.866
+Árbol 2
+Media = 31.241
+Árbol 3
+Media = 31.631
+Árbol 4
+Media = 31.622
+Árbol 5
+Media = 31.118
+Árbol 6
+Media = 31.448
+Árbol 7
+Media = 31.965
+Árbol 8
+Media = 31.322
+Árbol 9
+Media = 31.609
+Árbol 10
+Media = 31.378
+
+[k = 3]
+
+Árbol 1
+Media = 87.081
+Árbol 2
+Media = 86.166
+Árbol 3
+Media = 83.141
+Árbol 4
+Media = 80.232
+Árbol 5
+Media = 83.104
+Árbol 6
+Media = 87.898
+Árbol 7
+Media = 83.895
+Árbol 8
+Media = 85.183
+Árbol 9
+Media = 80.975
+Árbol 10
+Media = 85.378
+
+[k = 4]
+
+Árbol 1
+Media = 237.252
+Árbol 2
+Media = 245.745
+Árbol 3
+Media = 234.808
+Árbol 4
+Media = 241.556
+Árbol 5
+Media = 251.917
+Árbol 6
+Media = 254.864
+Árbol 7
+Media = 261.39
+Árbol 8
+Media = 259.464
+Árbol 9
+Media = 250.042
+Árbol 10
+Media = 251.509
+
+[k = 5]
+
+Árbol 1
+Media = 691.237
+Árbol 2
+Media = 727.642
+Árbol 3
+Media = 668.607
+Árbol 4
+Media = 699.342
+Árbol 5
+Media = 672.909
+Árbol 6
+Media = 689.276
+Árbol 7
+Media = 671.167
+Árbol 8
+Media = 689.488
+Árbol 9
+Media = 729.583
+Árbol 10
+Media = 695.802
+
+[k = 6]
+
+Árbol 1
+Media = 1591.18
+Árbol 2
+Media = 1583.53
+Árbol 3
+Media = 1625.65
+Árbol 4
+Media = 1620.14
+Árbol 5
+Media = 1506.41
+Árbol 6
+Media = 1523.42
+Árbol 7
+Media = 1521.05
+Árbol 8
+Media = 1647.88
+Árbol 9
+Media = 1706.22
+Árbol 10
+Media = 1644.75
+
+[Número de nodos = 16000]
+[k = 2]
+
+Árbol 1
+Media = 33.606
+Árbol 2
+Media = 32.258
+Árbol 3
+Media = 33.065
+Árbol 4
+Media = 32.537
+Árbol 5
+Media = 32.875
+Árbol 6
+Media = 32.417
+Árbol 7
+Media = 32.46
+Árbol 8
+Media = 33.012
+Árbol 9
+Media = 31.887
+Árbol 10
+Media = 32.878
+
+[k = 3]
+
+Árbol 1
+Media = 79.292
+Árbol 2
+Media = 78.326
+Árbol 3
+Media = 78.079
+Árbol 4
+Media = 81.861
+Árbol 5
+Media = 83.582
+Árbol 6
+Media = 84.786
+Árbol 7
+Media = 84.943
+Árbol 8
+Media = 83.651
+Árbol 9
+Media = 82.172
+Árbol 10
+Media = 84.59
+
+[k = 4]
+
+Árbol 1
+Media = 225.432
+Árbol 2
+Media = 215.096
+Árbol 3
+Media = 222.832
+Árbol 4
+Media = 230.496
+Árbol 5
+Media = 226.328
+Árbol 6
+Media = 233.033
+Árbol 7
+Media = 232.099
+Árbol 8
+Media = 221.406
+Árbol 9
+Media = 218.603
+Árbol 10
+Media = 217.843
+
+[k = 5]
+
+Árbol 1
+Media = 655.853
+Árbol 2
+Media = 791.119
+Árbol 3
+Media = 730.41
+Árbol 4
+Media = 766.935
+Árbol 5
+Media = 798.27
+Árbol 6
+Media = 737.493
+Árbol 7
+Media = 675.505
+Árbol 8
+Media = 706.406
+Árbol 9
+Media = 727.529
+Árbol 10
+Media = 685.895
+
+[k = 6]
+
+Árbol 1
+Media = 1725.37
+Árbol 2
+Media = 1719.26
+Árbol 3
+Media = 1686.21
+Árbol 4
+Media = 1609.81
+Árbol 5
+Media = 1648.59
+Árbol 6
+Media = 1710.11
+Árbol 7
+Media = 1772.13
+Árbol 8
+Media = 1663.3
+Árbol 9
+Media = 1637.77
+Árbol 10
+Media = 1858.55
+
+[Número de nodos = 17000]
+[k = 2]
+
+Árbol 1
+Media = 33.691
+Árbol 2
+Media = 34.265
+Árbol 3
+Media = 33.424
+Árbol 4
+Media = 33.459
+Árbol 5
+Media = 33.451
+Árbol 6
+Media = 33.223
+Árbol 7
+Media = 33.289
+Árbol 8
+Media = 33.545
+Árbol 9
+Media = 33.663
+Árbol 10
+Media = 33.453
+
+[k = 3]
+
+Árbol 1
+Media = 82.612
+Árbol 2
+Media = 77.34
+Árbol 3
+Media = 77.735
+Árbol 4
+Media = 81.202
+Árbol 5
+Media = 82.894
+Árbol 6
+Media = 82.533
+Árbol 7
+Media = 78.401
+Árbol 8
+Media = 76.407
+Árbol 9
+Media = 75.507
+Árbol 10
+Media = 78.308
+
+[k = 4]
+
+Árbol 1
+Media = 239.719
+Árbol 2
+Media = 234.839
+Árbol 3
+Media = 243.532
+Árbol 4
+Media = 242.988
+Árbol 5
+Media = 241.795
+Árbol 6
+Media = 228.66
+Árbol 7
+Media = 228.213
+Árbol 8
+Media = 244.091
+Árbol 9
+Media = 234.658
+Árbol 10
+Media = 237.002
+
+[k = 5]
+
+Árbol 1
+Media = 751.012
+Árbol 2
+Media = 673.037
+Árbol 3
+Media = 677.022
+Árbol 4
+Media = 654.827
+Árbol 5
+Media = 666.413
+Árbol 6
+Media = 700.542
+Árbol 7
+Media = 629.379
+Árbol 8
+Media = 637.38
+Árbol 9
+Media = 637.77
+Árbol 10
+Media = 657.53
+
+[k = 6]
+
+Árbol 1
+Media = 1772.09
+Árbol 2
+Media = 1702.57
+Árbol 3
+Media = 1652.68
+Árbol 4
+Media = 1723.55
+Árbol 5
+Media = 1669.92
+Árbol 6
+Media = 1850.01
+Árbol 7
+Media = 1714.75
+Árbol 8
+Media = 1669.23
+Árbol 9
+Media = 1716.16
+Árbol 10
+Media = 1626.84
+
+[Número de nodos = 18000]
+[k = 2]
+
+Árbol 1
+Media = 35.12
+Árbol 2
+Media = 35.252
+Árbol 3
+Media = 35.162
+Árbol 4
+Media = 34.94
+Árbol 5
+Media = 34.775
+Árbol 6
+Media = 34.981
+Árbol 7
+Media = 34.743
+Árbol 8
+Media = 35.463
+Árbol 9
+Media = 34.984
+Árbol 10
+Media = 35.362
+
+[k = 3]
+
+Árbol 1
+Media = 88.645
+Árbol 2
+Media = 86.891
+Árbol 3
+Media = 86.546
+Árbol 4
+Media = 83.695
+Árbol 5
+Media = 86.604
+Árbol 6
+Media = 90.734
+Árbol 7
+Media = 86.671
+Árbol 8
+Media = 87.035
+Árbol 9
+Media = 86.076
+Árbol 10
+Media = 79.675
+
+[k = 4]
+
+Árbol 1
+Media = 250.164
+Árbol 2
+Media = 233.354
+Árbol 3
+Media = 226.302
+Árbol 4
+Media = 234.573
+Árbol 5
+Media = 234.912
+Árbol 6
+Media = 227.236
+Árbol 7
+Media = 234.956
+Árbol 8
+Media = 229.494
+Árbol 9
+Media = 235.556
+Árbol 10
+Media = 238.76
+
+[k = 5]
+
+Árbol 1
+Media = 752.417
+Árbol 2
+Media = 749.541
+Árbol 3
+Media = 785.936
+Árbol 4
+Media = 781.21
+Árbol 5
+Media = 789.432
+Árbol 6
+Media = 791.312
+Árbol 7
+Media = 766.119
+Árbol 8
+Media = 701.305
+Árbol 9
+Media = 770.279
+Árbol 10
+Media = 735
+
+[k = 6]
+
+Árbol 1
+Media = 2012.09
+Árbol 2
+Media = 1651.13
+Árbol 3
+Media = 1754.67
+Árbol 4
+Media = 1923.21
+Árbol 5
+Media = 1898.41
+Árbol 6
+Media = 1827.84
+Árbol 7
+Media = 1893.32
+Árbol 8
+Media = 1860.2
+Árbol 9
+Media = 1832.42
+Árbol 10
+Media = 1720.74
+
+[Número de nodos = 19000]
+[k = 2]
+
+Árbol 1
+Media = 30.956
+Árbol 2
+Media = 31.121
+Árbol 3
+Media = 31.31
+Árbol 4
+Media = 31.279
+Árbol 5
+Media = 31.771
+Árbol 6
+Media = 31.124
+Árbol 7
+Media = 36.171
+Árbol 8
+Media = 36.41
+Árbol 9
+Media = 36.201
+Árbol 10
+Media = 36.207
+
+[k = 3]
+
+Árbol 1
+Media = 89.15
+Árbol 2
+Media = 90.019
+Árbol 3
+Media = 87.912
+Árbol 4
+Media = 91.304
+Árbol 5
+Media = 91.954
+Árbol 6
+Media = 89.989
+Árbol 7
+Media = 86.324
+Árbol 8
+Media = 89.637
+Árbol 9
+Media = 86.493
+Árbol 10
+Media = 87.851
+
+[k = 4]
+
+Árbol 1
+Media = 286.913
+Árbol 2
+Media = 284.017
+Árbol 3
+Media = 283.345
+Árbol 4
+Media = 277.32
+Árbol 5
+Media = 281.48
+Árbol 6
+Media = 279.423
+Árbol 7
+Media = 258.037
+Árbol 8
+Media = 262.615
+Árbol 9
+Media = 248.318
+Árbol 10
+Media = 258.684
+
+[k = 5]
+
+Árbol 1
+Media = 721.455
+Árbol 2
+Media = 719.565
+Árbol 3
+Media = 665.98
+Árbol 4
+Media = 715.57
+Árbol 5
+Media = 742.698
+Árbol 6
+Media = 739.708
+Árbol 7
+Media = 769.921
+Árbol 8
+Media = 704.081
+Árbol 9
+Media = 687.251
+Árbol 10
+Media = 710.713
+
+[k = 6]
+
+Árbol 1
+Media = 1807.52
+Árbol 2
+Media = 1861.02
+Árbol 3
+Media = 2169.56
+Árbol 4
+Media = 2160.18
+Árbol 5
+Media = 1796.98
+Árbol 6
+Media = 1907.1
+Árbol 7
+Media = 1937.89
+Árbol 8
+Media = 2213.67
+Árbol 9
+Media = 2197.83
+Árbol 10
+Media = 1896.91
+
+[Número de nodos = 20000]
+[k = 2]
+
+Árbol 1
+Media = 32.913
+Árbol 2
+Media = 33.385
+Árbol 3
+Media = 33.088
+Árbol 4
+Media = 33.046
+Árbol 5
+Media = 32.962
+Árbol 6
+Media = 32.8
+Árbol 7
+Media = 33.254
+Árbol 8
+Media = 32.177
+Árbol 9
+Media = 33.161
+Árbol 10
+Media = 33.546
+
+[k = 3]
+
+Árbol 1
+Media = 82.1
+Árbol 2
+Media = 80.37
+Árbol 3
+Media = 76.442
+Árbol 4
+Media = 76.27
+Árbol 5
+Media = 76.681
+Árbol 6
+Media = 75.51
+Árbol 7
+Media = 79.188
+Árbol 8
+Media = 79.335
+Árbol 9
+Media = 78.479
+Árbol 10
+Media = 75.136
+
+[k = 4]
+
+Árbol 1
+Media = 229.157
+Árbol 2
+Media = 238.274
+Árbol 3
+Media = 240.803
+Árbol 4
+Media = 245.362
+Árbol 5
+Media = 228.069
+Árbol 6
+Media = 226.098
+Árbol 7
+Media = 236.61
+Árbol 8
+Media = 242.352
+Árbol 9
+Media = 254.025
+Árbol 10
+Media = 247.846
+
+[k = 5]
+
+Árbol 1
+Media = 805.012
+Árbol 2
+Media = 811.51
+Árbol 3
+Media = 808.977
+Árbol 4
+Media = 773.733
+Árbol 5
+Media = 772.87
+Árbol 6
+Media = 763.608
+Árbol 7
+Media = 753.372
+Árbol 8
+Media = 747.162
+Árbol 9
+Media = 968.667
+Árbol 10
+Media = 1002.79
+
+[k = 6]
+
+Árbol 1
+Media = 2015.96
+Árbol 2
+Media = 1854.45
+Árbol 3
+Media = 1867.06
+Árbol 4
+Media = 2010.57
+Árbol 5
+Media = 1967.28
+Árbol 6
+Media = 2082.94
+Árbol 7
+Media = 2016.29
+Árbol 8
+Media = 2001.52
+Árbol 9
+Media = 1934.27
+Árbol 10
+Media = 2000.86
+
+[Número de nodos = 21000]
+[k = 2]
+
+Árbol 1
+Media = 36.22
+Árbol 2
+Media = 35.843
+Árbol 3
+Media = 35.22
+Árbol 4
+Media = 35.123
+Árbol 5
+Media = 32.46
+Árbol 6
+Media = 31.96
+Árbol 7
+Media = 32.433
+Árbol 8
+Media = 33.042
+Árbol 9
+Media = 33.232
+Árbol 10
+Media = 33.023
+
+[k = 3]
+
+Árbol 1
+Media = 79.364
+Árbol 2
+Media = 81.682
+Árbol 3
+Media = 80.453
+Árbol 4
+Media = 84.371
+Árbol 5
+Media = 78.917
+Árbol 6
+Media = 83.633
+Árbol 7
+Media = 79.22
+Árbol 8
+Media = 80.058
+Árbol 9
+Media = 79.648
+Árbol 10
+Media = 78.726
+
+[k = 4]
+
+Árbol 1
+Media = 264.987
+Árbol 2
+Media = 253.403
+Árbol 3
+Media = 257.372
+Árbol 4
+Media = 264.805
+Árbol 5
+Media = 254.855
+Árbol 6
+Media = 295.566
+Árbol 7
+Media = 289.806
+Árbol 8
+Media = 291.934
+Árbol 9
+Media = 278.61
+Árbol 10
+Media = 292.856
+
+[k = 5]
+
+Árbol 1
+Media = 801.04
+Árbol 2
+Media = 823.558
+Árbol 3
+Media = 804.32
+Árbol 4
+Media = 829.975
+Árbol 5
+Media = 776.791
+Árbol 6
+Media = 753.205
+Árbol 7
+Media = 829.205
+Árbol 8
+Media = 750.526
+Árbol 9
+Media = 744.02
+Árbol 10
+Media = 745.834
+
+[k = 6]
+
+Árbol 1
+Media = 1943.25
+Árbol 2
+Media = 1872.75
+Árbol 3
+Media = 1986.61
+Árbol 4
+Media = 1886.2
+Árbol 5
+Media = 1973.19
+Árbol 6
+Media = 1837.2
+Árbol 7
+Media = 1795.19
+Árbol 8
+Media = 1940.05
+Árbol 9
+Media = 1870.86
+Árbol 10
+Media = 1989.18
+
+[Número de nodos = 22000]
+[k = 2]
+
+Árbol 1
+Media = 33.877
+Árbol 2
+Media = 33.293
+Árbol 3
+Media = 33.875
+Árbol 4
+Media = 35.249
+Árbol 5
+Media = 35.265
+Árbol 6
+Media = 34.923
+Árbol 7
+Media = 34.882
+Árbol 8
+Media = 35.763
+Árbol 9
+Media = 34.858
+Árbol 10
+Media = 35.526
+
+[k = 3]
+
+Árbol 1
+Media = 87.015
+Árbol 2
+Media = 84.841
+Árbol 3
+Media = 86.106
+Árbol 4
+Media = 85.33
+Árbol 5
+Media = 86.651
+Árbol 6
+Media = 88.818
+Árbol 7
+Media = 86.015
+Árbol 8
+Media = 84.537
+Árbol 9
+Media = 86.273
+Árbol 10
+Media = 86.571
+
+[k = 4]
+
+Árbol 1
+Media = 295.783
+Árbol 2
+Media = 304.881
+Árbol 3
+Media = 293.089
+Árbol 4
+Media = 297.06
+Árbol 5
+Media = 265.255
+Árbol 6
+Media = 260.416
+Árbol 7
+Media = 259.057
+Árbol 8
+Media = 268.534
+Árbol 9
+Media = 261.517
+Árbol 10
+Media = 247.93
+
+[k = 5]
+
+Árbol 1
+Media = 801.195
+Árbol 2
+Media = 765.485
+Árbol 3
+Media = 810.274
+Árbol 4
+Media = 790.142
+Árbol 5
+Media = 800.91
+Árbol 6
+Media = 779.943
+Árbol 7
+Media = 783.312
+Árbol 8
+Media = 747.053
+Árbol 9
+Media = 758.821
+Árbol 10
+Media = 730.799
+
+[k = 6]
+
+Árbol 1
+Media = 2091.79
+Árbol 2
+Media = 1996.98
+Árbol 3
+Media = 1920.36
+Árbol 4
+Media = 1874.78
+Árbol 5
+Media = 1867.06
+Árbol 6
+Media = 1971.65
+Árbol 7
+Media = 1981.39
+Árbol 8
+Media = 2123.84
+Árbol 9
+Media = 1898.56
+Árbol 10
+Media = 2099.83
+
+[Número de nodos = 23000]
+[k = 2]
+
+Árbol 1
+Media = 34.554
+Árbol 2
+Media = 34.273
+Árbol 3
+Media = 34.541
+Árbol 4
+Media = 35.23
+Árbol 5
+Media = 34.227
+Árbol 6
+Media = 34.56
+Árbol 7
+Media = 34.038
+Árbol 8
+Media = 34.223
+Árbol 9
+Media = 33.888
+Árbol 10
+Media = 34.664
+
+[k = 3]
+
+Árbol 1
+Media = 81.617
+Árbol 2
+Media = 85.075
+Árbol 3
+Media = 86.963
+Árbol 4
+Media = 82.862
+Árbol 5
+Media = 83.768
+Árbol 6
+Media = 86.205
+Árbol 7
+Media = 80.129
+Árbol 8
+Media = 83.169
+Árbol 9
+Media = 83.523
+Árbol 10
+Media = 83.195
+
+[k = 4]
+
+Árbol 1
+Media = 262.601
+Árbol 2
+Media = 271.927
+Árbol 3
+Media = 267.088
+Árbol 4
+Media = 261.5
+Árbol 5
+Media = 265.604
+Árbol 6
+Media = 261.376
+Árbol 7
+Media = 269.994
+Árbol 8
+Media = 267.239
+Árbol 9
+Media = 268.486
+Árbol 10
+Media = 284.41
+
+[k = 5]
+
+Árbol 1
+Media = 811.756
+Árbol 2
+Media = 876.497
+Árbol 3
+Media = 875.26
+Árbol 4
+Media = 868.208
+Árbol 5
+Media = 865.544
+Árbol 6
+Media = 835.449
+Árbol 7
+Media = 814.025
+Árbol 8
+Media = 821.558
+Árbol 9
+Media = 803.132
+Árbol 10
+Media = 777.81
+
+[k = 6]
+
+Árbol 1
+Media = 2210.91
+Árbol 2
+Media = 2225.04
+Árbol 3
+Media = 1965.09
+Árbol 4
+Media = 2002.77
+Árbol 5
+Media = 1915.43
+Árbol 6
+Media = 2123.41
+Árbol 7
+Media = 2094.65
+Árbol 8
+Media = 1807.21
+Árbol 9
+Media = 1788.96
+Árbol 10
+Media = 2056.12
+
+[Número de nodos = 24000]
+[k = 2]
+
+Árbol 1
+Media = 34.998
+Árbol 2
+Media = 34.631
+Árbol 3
+Media = 34.812
+Árbol 4
+Media = 34.505
+Árbol 5
+Media = 34.763
+Árbol 6
+Media = 34.199
+Árbol 7
+Media = 34.568
+Árbol 8
+Media = 32.306
+Árbol 9
+Media = 32.769
+Árbol 10
+Media = 32.784
+
+[k = 3]
+
+Árbol 1
+Media = 78.349
+Árbol 2
+Media = 81.123
+Árbol 3
+Media = 80.722
+Árbol 4
+Media = 79.254
+Árbol 5
+Media = 79.274
+Árbol 6
+Media = 78.969
+Árbol 7
+Media = 82.619
+Árbol 8
+Media = 78.442
+Árbol 9
+Media = 79.973
+Árbol 10
+Media = 79.776
+
+[k = 4]
+
+Árbol 1
+Media = 278.1
+Árbol 2
+Media = 263.853
+Árbol 3
+Media = 273.378
+Árbol 4
+Media = 275.724
+Árbol 5
+Media = 271.041
+Árbol 6
+Media = 228.751
+Árbol 7
+Media = 246.037
+Árbol 8
+Media = 240.625
+Árbol 9
+Media = 244.834
+Árbol 10
+Media = 240.691
+
+[k = 5]
+
+Árbol 1
+Media = 801.836
+Árbol 2
+Media = 824.844
+Árbol 3
+Media = 789.785
+Árbol 4
+Media = 860.333
+Árbol 5
+Media = 856.836
+Árbol 6
+Media = 847.248
+Árbol 7
+Media = 880.492
+Árbol 8
+Media = 867.465
+Árbol 9
+Media = 766.597
+Árbol 10
+Media = 816.757
+
+[k = 6]
+
+Árbol 1
+Media = 2153.45
+Árbol 2
+Media = 2454.56
+Árbol 3
+Media = 1856.87
+Árbol 4
+Media = 1846.9
+Árbol 5
+Media = 1974.12
+Árbol 6
+Media = 1967.05
+Árbol 7
+Media = 1940.92
+Árbol 8
+Media = 1852.66
+Árbol 9
+Media = 1946.73
+Árbol 10
+Media = 1867.72
+
+[Número de nodos = 25000]
+[k = 2]
+
+Árbol 1
+Media = 36.551
+Árbol 2
+Media = 36.86
+Árbol 3
+Media = 35.939
+Árbol 4
+Media = 36.528
+Árbol 5
+Media = 36.865
+Árbol 6
+Media = 37.672
+Árbol 7
+Media = 36.514
+Árbol 8
+Media = 36.389
+Árbol 9
+Media = 36.213
+Árbol 10
+Media = 36.485
+
+[k = 3]
+
+Árbol 1
+Media = 86.308
+Árbol 2
+Media = 82.794
+Árbol 3
+Media = 85.489
+Árbol 4
+Media = 84.557
+Árbol 5
+Media = 81.505
+Árbol 6
+Media = 83.308
+Árbol 7
+Media = 83.073
+Árbol 8
+Media = 85.901
+Árbol 9
+Media = 80.181
+Árbol 10
+Media = 79.01
+
+[k = 4]
+
+Árbol 1
+Media = 286.363
+Árbol 2
+Media = 300.388
+Árbol 3
+Media = 273.833
+Árbol 4
+Media = 286.05
+Árbol 5
+Media = 284.744
+Árbol 6
+Media = 277.874
+Árbol 7
+Media = 297.595
+Árbol 8
+Media = 279.996
+Árbol 9
+Media = 289.98
+Árbol 10
+Media = 254.682
+
+[k = 5]
+
+Árbol 1
+Media = 810.659
+Árbol 2
+Media = 799.729
+Árbol 3
+Media = 832.717
+Árbol 4
+Media = 789.249
+Árbol 5
+Media = 816.995
+Árbol 6
+Media = 819.532
+Árbol 7
+Media = 854.139
+Árbol 8
+Media = 800.778
+Árbol 9
+Media = 831.682
+Árbol 10
+Media = 845.453
+
+[k = 6]
+
+Árbol 1
+Media = 2314.16
+Árbol 2
+Media = 2055.67
+Árbol 3
+Media = 2104.89
+Árbol 4
+Media = 2182.75
+Árbol 5
+Media = 2243.82
+Árbol 6
+Media = 2164.46
+Árbol 7
+Media = 2166.94
+Árbol 8
+Media = 2228.78
+Árbol 9
+Media = 2037.17
+Árbol 10
+Media = 2064.75
+
+[Número de nodos = 26000]
+[k = 2]
+
+Árbol 1
+Media = 32.936
+Árbol 2
+Media = 33.243
+Árbol 3
+Media = 33.003
+Árbol 4
+Media = 33.004
+Árbol 5
+Media = 32.158
+Árbol 6
+Media = 32.903
+Árbol 7
+Media = 32.411
+Árbol 8
+Media = 32.101
+Árbol 9
+Media = 33.4
+Árbol 10
+Media = 32.936
+
+[k = 3]
+
+Árbol 1
+Media = 82.211
+Árbol 2
+Media = 83.121
+Árbol 3
+Media = 84.51
+Árbol 4
+Media = 84.374
+Árbol 5
+Media = 85.899
+Árbol 6
+Media = 86.445
+Árbol 7
+Media = 79.447
+Árbol 8
+Media = 79.928
+Árbol 9
+Media = 83.17
+Árbol 10
+Media = 83.081
+
+[k = 4]
+
+Árbol 1
+Media = 269.955
+Árbol 2
+Media = 278.229
+Árbol 3
+Media = 273.829
+Árbol 4
+Media = 273.425
+Árbol 5
+Media = 287.023
+Árbol 6
+Media = 282.359
+Árbol 7
+Media = 278.416
+Árbol 8
+Media = 280.418
+Árbol 9
+Media = 293.435
+Árbol 10
+Media = 280.293
+
+[k = 5]
+
+Árbol 1
+Media = 799.022
+Árbol 2
+Media = 790.46
+Árbol 3
+Media = 787.756
+Árbol 4
+Media = 819.097
+Árbol 5
+Media = 817.771
+Árbol 6
+Media = 816.482
+Árbol 7
+Media = 833.904
+Árbol 8
+Media = 772.011
+Árbol 9
+Media = 887.461
+Árbol 10
+Media = 966.749
+
+[k = 6]
+
+Árbol 1
+Media = 2382.73
+Árbol 2
+Media = 2163.91
+Árbol 3
+Media = 2138.11
+Árbol 4
+Media = 2194.22
+Árbol 5
+Media = 1950.57
+Árbol 6
+Media = 1862.83
+Árbol 7
+Media = 2038.86
+Árbol 8
+Media = 2044.76
+Árbol 9
+Media = 2193.12
+Árbol 10
+Media = 2266.28
+
+[Número de nodos = 27000]
+[k = 2]
+
+Árbol 1
+Media = 32.976
+Árbol 2
+Media = 32.661
+Árbol 3
+Media = 32.288
+Árbol 4
+Media = 32.965
+Árbol 5
+Media = 33.017
+Árbol 6
+Media = 33.138
+Árbol 7
+Media = 32.624
+Árbol 8
+Media = 32.619
+Árbol 9
+Media = 32.731
+Árbol 10
+Media = 32.685
+
+[k = 3]
+
+Árbol 1
+Media = 81.009
+Árbol 2
+Media = 82.603
+Árbol 3
+Media = 81.389
+Árbol 4
+Media = 84.764
+Árbol 5
+Media = 80.874
+Árbol 6
+Media = 80.755
+Árbol 7
+Media = 82.893
+Árbol 8
+Media = 81.625
+Árbol 9
+Media = 80.057
+Árbol 10
+Media = 82.862
+
+[k = 4]
+
+Árbol 1
+Media = 254.083
+Árbol 2
+Media = 276.477
+Árbol 3
+Media = 266.945
+Árbol 4
+Media = 268.35
+Árbol 5
+Media = 265.443
+Árbol 6
+Media = 267.157
+Árbol 7
+Media = 254.928
+Árbol 8
+Media = 292.505
+Árbol 9
+Media = 288.927
+Árbol 10
+Media = 277.766
+
+[k = 5]
+
+Árbol 1
+Media = 861.499
+Árbol 2
+Media = 874.982
+Árbol 3
+Media = 887.06
+Árbol 4
+Media = 815.98
+Árbol 5
+Media = 883.328
+Árbol 6
+Media = 889.942
+Árbol 7
+Media = 836.678
+Árbol 8
+Media = 802.242
+Árbol 9
+Media = 833.419
+Árbol 10
+Media = 755.991
+
+[k = 6]
+
+Árbol 1
+Media = 2086.58
+Árbol 2
+Media = 2124.34
+Árbol 3
+Media = 2227.71
+Árbol 4
+Media = 2361.82
+Árbol 5
+Media = 2133.89
+Árbol 6
+Media = 2026.03
+Árbol 7
+Media = 2135.44
+Árbol 8
+Media = 2040.48
+Árbol 9
+Media = 2101.89
+Árbol 10
+Media = 2094.48
+
+[Número de nodos = 28000]
+[k = 2]
+
+Árbol 1
+Media = 33.697
+Árbol 2
+Media = 34.725
+Árbol 3
+Media = 34.254
+Árbol 4
+Media = 34.195
+Árbol 5
+Media = 33.95
+Árbol 6
+Media = 34.507
+Árbol 7
+Media = 34.517
+Árbol 8
+Media = 33.74
+Árbol 9
+Media = 34.174
+Árbol 10
+Media = 34.559
+
+[k = 3]
+
+Árbol 1
+Media = 93.168
+Árbol 2
+Media = 90.393
+Árbol 3
+Media = 86.174
+Árbol 4
+Media = 85.259
+Árbol 5
+Media = 88.289
+Árbol 6
+Media = 88.681
+Árbol 7
+Media = 89.89
+Árbol 8
+Media = 87.755
+Árbol 9
+Media = 91.005
+Árbol 10
+Media = 86.02
+
+[k = 4]
+
+Árbol 1
+Media = 300.155
+Árbol 2
+Media = 302.706
+Árbol 3
+Media = 290.633
+Árbol 4
+Media = 304.052
+Árbol 5
+Media = 272.083
+Árbol 6
+Media = 269.677
+Árbol 7
+Media = 276.286
+Árbol 8
+Media = 272.366
+Árbol 9
+Media = 274.366
+Árbol 10
+Media = 267.667
+
+[k = 5]
+
+Árbol 1
+Media = 786.023
+Árbol 2
+Media = 827.693
+Árbol 3
+Media = 908.095
+Árbol 4
+Media = 888.517
+Árbol 5
+Media = 888.446
+Árbol 6
+Media = 931.797
+Árbol 7
+Media = 829.146
+Árbol 8
+Media = 896.118
+Árbol 9
+Media = 912.745
+Árbol 10
+Media = 919.686
+
+[k = 6]
+
+Árbol 1
+Media = 2080.81
+Árbol 2
+Media = 2070.6
+Árbol 3
+Media = 2406.89
+Árbol 4
+Media = 2353.03
+Árbol 5
+Media = 2317.65
+Árbol 6
+Media = 2224.67
+Árbol 7
+Media = 2306.89
+Árbol 8
+Media = 2042.03
+Árbol 9
+Media = 2142.6
+Árbol 10
+Media = 2222.9
+
+[Número de nodos = 29000]
+[k = 2]
+
+Árbol 1
+Media = 34.739
+Árbol 2
+Media = 34.958
+Árbol 3
+Media = 34.48
+Árbol 4
+Media = 35.048
+Árbol 5
+Media = 34.823
+Árbol 6
+Media = 34.914
+Árbol 7
+Media = 34.769
+Árbol 8
+Media = 35.804
+Árbol 9
+Media = 34.41
+Árbol 10
+Media = 34.848
+
+[k = 3]
+
+Árbol 1
+Media = 97.455
+Árbol 2
+Media = 95.039
+Árbol 3
+Media = 94.331
+Árbol 4
+Media = 98.315
+Árbol 5
+Media = 96.935
+Árbol 6
+Media = 96.528
+Árbol 7
+Media = 89.966
+Árbol 8
+Media = 86.891
+Árbol 9
+Media = 87.843
+Árbol 10
+Media = 90.66
+
+[k = 4]
+
+Árbol 1
+Media = 250.16
+Árbol 2
+Media = 272.089
+Árbol 3
+Media = 263.587
+Árbol 4
+Media = 268.054
+Árbol 5
+Media = 271.946
+Árbol 6
+Media = 265.922
+Árbol 7
+Media = 260.387
+Árbol 8
+Media = 262.412
+Árbol 9
+Media = 273.392
+Árbol 10
+Media = 284.646
+
+[k = 5]
+
+Árbol 1
+Media = 820.98
+Árbol 2
+Media = 827.995
+Árbol 3
+Media = 817.771
+Árbol 4
+Media = 842.489
+Árbol 5
+Media = 832.887
+Árbol 6
+Media = 826.524
+Árbol 7
+Media = 805.177
+Árbol 8
+Media = 866.663
+Árbol 9
+Media = 825.942
+Árbol 10
+Media = 853.852
+
+[k = 6]
+
+Árbol 1
+Media = 2249.91
+Árbol 2
+Media = 2096.7
+Árbol 3
+Media = 2115.09
+Árbol 4
+Media = 2249.16
+Árbol 5
+Media = 2185.37
+Árbol 6
+Media = 2093.32
+Árbol 7
+Media = 2133.68
+Árbol 8
+Media = 2174.61
+Árbol 9
+Media = 2506.45
+Árbol 10
+Media = 2176.63
+
+[Número de nodos = 30000]
+[k = 2]
+
+Árbol 1
+Media = 36.807
+Árbol 2
+Media = 37.207
+Árbol 3
+Media = 37.038
+Árbol 4
+Media = 37.094
+Árbol 5
+Media = 33.484
+Árbol 6
+Media = 33.186
+Árbol 7
+Media = 33.26
+Árbol 8
+Media = 33.717
+Árbol 9
+Media = 32.756
+Árbol 10
+Media = 33.626
+
+[k = 3]
+
+Árbol 1
+Media = 83.048
+Árbol 2
+Media = 78.851
+Árbol 3
+Media = 80.736
+Árbol 4
+Media = 83.035
+Árbol 5
+Media = 80.942
+Árbol 6
+Media = 84.466
+Árbol 7
+Media = 83.449
+Árbol 8
+Media = 85.239
+Árbol 9
+Media = 84.002
+Árbol 10
+Media = 81.62
+
+[k = 4]
+
+Árbol 1
+Media = 280.546
+Árbol 2
+Media = 274.178
+Árbol 3
+Media = 281.019
+Árbol 4
+Media = 273.691
+Árbol 5
+Media = 276.28
+Árbol 6
+Media = 286.122
+Árbol 7
+Media = 277.429
+Árbol 8
+Media = 281.682
+Árbol 9
+Media = 268.957
+Árbol 10
+Media = 264.29
+
+[k = 5]
+
+Árbol 1
+Media = 818.854
+Árbol 2
+Media = 887.66
+Árbol 3
+Media = 906.013
+Árbol 4
+Media = 863.774
+Árbol 5
+Media = 876.707
+Árbol 6
+Media = 875.087
+Árbol 7
+Media = 873.268
+Árbol 8
+Media = 905.43
+Árbol 9
+Media = 908.121
+Árbol 10
+Media = 824.711
+
+[k = 6]
+
+Árbol 1
+Media = 2215.5
+Árbol 2
+Media = 2343.66
+Árbol 3
+Media = 2369.82
+Árbol 4
+Media = 2192.89
+Árbol 5
+Media = 2315.59
+Árbol 6
+Media = 2179.23
+Árbol 7
+Media = 2051.72
+Árbol 8
+Media = 2174.21
+Árbol 9
+Media = 2295.72
+Árbol 10
+Media = 2250.89
+
+[Número de nodos = 31000]
+[k = 2]
+
+Árbol 1
+Media = 36.123
+Árbol 2
+Media = 35.248
+Árbol 3
+Media = 35.246
+Árbol 4
+Media = 35.524
+Árbol 5
+Media = 36.118
+Árbol 6
+Media = 35.684
+Árbol 7
+Media = 35.723
+Árbol 8
+Media = 34.319
+Árbol 9
+Media = 33.384
+Árbol 10
+Media = 33.148
+
+[k = 3]
+
+Árbol 1
+Media = 86.366
+Árbol 2
+Media = 86.304
+Árbol 3
+Media = 86.644
+Árbol 4
+Media = 85.871
+Árbol 5
+Media = 85.138
+Árbol 6
+Media = 83.458
+Árbol 7
+Media = 85.014
+Árbol 8
+Media = 85.062
+Árbol 9
+Media = 87.433
+Árbol 10
+Media = 88.441
+
+[k = 4]
+
+Árbol 1
+Media = 274.401
+Árbol 2
+Media = 265.085
+Árbol 3
+Media = 274.028
+Árbol 4
+Media = 267.736
+Árbol 5
+Media = 258.79
+Árbol 6
+Media = 264.751
+Árbol 7
+Media = 265.066
+Árbol 8
+Media = 261.37
+Árbol 9
+Media = 262.931
+Árbol 10
+Media = 273.771
+
+[k = 5]
+
+Árbol 1
+Media = 881.32
+Árbol 2
+Media = 878.223
+Árbol 3
+Media = 850.792
+Árbol 4
+Media = 903.211
+Árbol 5
+Media = 867.057
+Árbol 6
+Media = 864.502
+Árbol 7
+Media = 903.544
+Árbol 8
+Media = 892.814
+Árbol 9
+Media = 911.073
+Árbol 10
+Media = 817.68
+
+[k = 6]
+
+Árbol 1
+Media = 2201.39
+Árbol 2
+Media = 2169.49
+Árbol 3
+Media = 2186.34
+Árbol 4
+Media = 2473.49
+Árbol 5
+Media = 2582.01
+Árbol 6
+Media = 2559.08
+Árbol 7
+Media = 2261.92
+Árbol 8
+Media = 2151.6
+Árbol 9
+Media = 2152.03
+Árbol 10
+Media = 2627.58
+
+[Número de nodos = 32000]
+[k = 2]
+
+Árbol 1
+Media = 34.587
+Árbol 2
+Media = 35.232
+Árbol 3
+Media = 34.61
+Árbol 4
+Media = 35.018
+Árbol 5
+Media = 35.262
+Árbol 6
+Media = 34.616
+Árbol 7
+Media = 34.784
+Árbol 8
+Media = 34.907
+Árbol 9
+Media = 34.821
+Árbol 10
+Media = 35.693
+
+[k = 3]
+
+Árbol 1
+Media = 89.804
+Árbol 2
+Media = 90.438
+Árbol 3
+Media = 90.946
+Árbol 4
+Media = 88.656
+Árbol 5
+Media = 91.335
+Árbol 6
+Media = 88.616
+Árbol 7
+Media = 87.309
+Árbol 8
+Media = 88.234
+Árbol 9
+Media = 87.688
+Árbol 10
+Media = 89.158
+
+[k = 4]
+
+Árbol 1
+Media = 266.215
+Árbol 2
+Media = 262.876
+Árbol 3
+Media = 289.734
+Árbol 4
+Media = 278.909
+Árbol 5
+Media = 266.062
+Árbol 6
+Media = 292.229
+Árbol 7
+Media = 293.876
+Árbol 8
+Media = 276.049
+Árbol 9
+Media = 280.958
+Árbol 10
+Media = 268.283
+
+[k = 5]
+
+Árbol 1
+Media = 895.385
+Árbol 2
+Media = 914.526
+Árbol 3
+Media = 919.016
+Árbol 4
+Media = 892.292
+Árbol 5
+Media = 847.624
+Árbol 6
+Media = 863.292
+Árbol 7
+Media = 812.231
+Árbol 8
+Media = 827.489
+Árbol 9
+Media = 817.134
+Árbol 10
+Media = 891.613
+
+[k = 6]
+
+Árbol 1
+Media = 2404.02
+Árbol 2
+Media = 2311.13
+Árbol 3
+Media = 2434.67
+Árbol 4
+Media = 2376.97
+Árbol 5
+Media = 2350.7
+Árbol 6
+Media = 2300.9
+Árbol 7
+Media = 2411.3
+Árbol 8
+Media = 2473.37
+Árbol 9
+Media = 2127.02
+Árbol 10
+Media = 2168.89
+
+[Número de nodos = 33000]
+[k = 2]
+
+Árbol 1
+Media = 35.988
+Árbol 2
+Media = 35.441
+Árbol 3
+Media = 35.022
+Árbol 4
+Media = 35.345
+Árbol 5
+Media = 35.06
+Árbol 6
+Media = 34.482
+Árbol 7
+Media = 34.703
+Árbol 8
+Media = 34.446
+Árbol 9
+Media = 34.735
+Árbol 10
+Media = 34.422
+
+[k = 3]
+
+Árbol 1
+Media = 90.724
+Árbol 2
+Media = 88.01
+Árbol 3
+Media = 85.444
+Árbol 4
+Media = 81.401
+Árbol 5
+Media = 82.586
+Árbol 6
+Media = 82.099
+Árbol 7
+Media = 84.234
+Árbol 8
+Media = 83.934
+Árbol 9
+Media = 82.181
+Árbol 10
+Media = 79.576
+
+[k = 4]
+
+Árbol 1
+Media = 277.706
+Árbol 2
+Media = 267.596
+Árbol 3
+Media = 271.028
+Árbol 4
+Media = 268.306
+Árbol 5
+Media = 261.621
+Árbol 6
+Media = 279.99
+Árbol 7
+Media = 267.917
+Árbol 8
+Media = 275.173
+Árbol 9
+Media = 264.619
+Árbol 10
+Media = 261.02
+
+[k = 5]
+
+Árbol 1
+Media = 845.519
+Árbol 2
+Media = 832.576
+Árbol 3
+Media = 963.473
+Árbol 4
+Media = 967.952
+Árbol 5
+Media = 972.651
+Árbol 6
+Media = 1006.07
+Árbol 7
+Media = 878.308
+Árbol 8
+Media = 835.113
+Árbol 9
+Media = 849.777
+Árbol 10
+Media = 818.591
+
+[k = 6]
+
+Árbol 1
+Media = 2477.24
+Árbol 2
+Media = 2493.05
+Árbol 3
+Media = 2480.22
+Árbol 4
+Media = 2223.83
+Árbol 5
+Media = 2088.17
+Árbol 6
+Media = 2407.11
+Árbol 7
+Media = 2184.86
+Árbol 8
+Media = 2090.09
+Árbol 9
+Media = 2426.34
+Árbol 10
+Media = 2507.88
+
+[Número de nodos = 34000]
+[k = 2]
+
+Árbol 1
+Media = 36.362
+Árbol 2
+Media = 36.208
+Árbol 3
+Media = 36.51
+Árbol 4
+Media = 36.795
+Árbol 5
+Media = 35.759
+Árbol 6
+Media = 39.368
+Árbol 7
+Media = 39.21
+Árbol 8
+Media = 39.329
+Árbol 9
+Media = 39.65
+Árbol 10
+Media = 38.584
+
+[k = 3]
+
+Árbol 1
+Media = 90.805
+Árbol 2
+Media = 92.16
+Árbol 3
+Media = 94.597
+Árbol 4
+Media = 93.523
+Árbol 5
+Media = 94.538
+Árbol 6
+Media = 96.186
+Árbol 7
+Media = 96.358
+Árbol 8
+Media = 97.892
+Árbol 9
+Media = 94.333
+Árbol 10
+Media = 92.026
+
+[k = 4]
+
+Árbol 1
+Media = 302.353
+Árbol 2
+Media = 321.206
+Árbol 3
+Media = 306.096
+Árbol 4
+Media = 293.094
+Árbol 5
+Media = 283.063
+Árbol 6
+Media = 289.435
+Árbol 7
+Media = 308.91
+Árbol 8
+Media = 295.089
+Árbol 9
+Media = 278.711
+Árbol 10
+Media = 286.018
+
+[k = 5]
+
+Árbol 1
+Media = 888.319
+Árbol 2
+Media = 802.095
+Árbol 3
+Media = 845.705
+Árbol 4
+Media = 853.097
+Árbol 5
+Media = 833.836
+Árbol 6
+Media = 854.36
+Árbol 7
+Media = 850.195
+Árbol 8
+Media = 873.908
+Árbol 9
+Media = 949.635
+Árbol 10
+Media = 920.638
+
+[k = 6]
+
+Árbol 1
+Media = 2466.14
+Árbol 2
+Media = 2360.77
+Árbol 3
+Media = 2392.02
+Árbol 4
+Media = 2382.29
+Árbol 5
+Media = 2131
+Árbol 6
+Media = 2345.24
+Árbol 7
+Media = 2308.48
+Árbol 8
+Media = 2227.72
+Árbol 9
+Media = 1992.98
+Árbol 10
+Media = 2142.16
+
+[Número de nodos = 35000]
+[k = 2]
+
+Árbol 1
+Media = 35.477
+Árbol 2
+Media = 36.008
+Árbol 3
+Media = 35.192
+Árbol 4
+Media = 36.45
+Árbol 5
+Media = 35.775
+Árbol 6
+Media = 35.272
+Árbol 7
+Media = 35.137
+Árbol 8
+Media = 35.36
+Árbol 9
+Media = 35.546
+Árbol 10
+Media = 35.988
+
+[k = 3]
+
+Árbol 1
+Media = 86.981
+Árbol 2
+Media = 91.183
+Árbol 3
+Media = 89.78
+Árbol 4
+Media = 90.165
+Árbol 5
+Media = 91.426
+Árbol 6
+Media = 93.832
+Árbol 7
+Media = 95.059
+Árbol 8
+Media = 95.004
+Árbol 9
+Media = 93.097
+Árbol 10
+Media = 91.606
+
+[k = 4]
+
+Árbol 1
+Media = 265.51
+Árbol 2
+Media = 272.304
+Árbol 3
+Media = 293.791
+Árbol 4
+Media = 283.99
+Árbol 5
+Media = 284.074
+Árbol 6
+Media = 285.262
+Árbol 7
+Media = 261.297
+Árbol 8
+Media = 253.838
+Árbol 9
+Media = 266.912
+Árbol 10
+Media = 251.089
+
+[k = 5]
+
+Árbol 1
+Media = 819.952
+Árbol 2
+Media = 870.253
+Árbol 3
+Media = 1012.91
+Árbol 4
+Media = 973.364
+Árbol 5
+Media = 1000.68
+Árbol 6
+Media = 1016.53
+Árbol 7
+Media = 882.057
+Árbol 8
+Media = 856.02
+Árbol 9
+Media = 847.234
+Árbol 10
+Media = 884.575
+
+[k = 6]
+
+Árbol 1
+Media = 2533.22
+Árbol 2
+Media = 2384.24
+Árbol 3
+Media = 2331.59
+Árbol 4
+Media = 2299.24
+Árbol 5
+Media = 2331.11
+Árbol 6
+Media = 2302.43
+Árbol 7
+Media = 2425.8
+Árbol 8
+Media = 2303.53
+Árbol 9
+Media = 2351.14
+Árbol 10
+Media = 2294.89
+
+[Número de nodos = 36000]
+[k = 2]
+
+Árbol 1
+Media = 36.937
+Árbol 2
+Media = 36.642
+Árbol 3
+Media = 37.175
+Árbol 4
+Media = 37.217
+Árbol 5
+Media = 37.688
+Árbol 6
+Media = 37.232
+Árbol 7
+Media = 38.266
+Árbol 8
+Media = 37.054
+Árbol 9
+Media = 37.775
+Árbol 10
+Media = 36.978
+
+[k = 3]
+
+Árbol 1
+Media = 88.936
+Árbol 2
+Media = 89.004
+Árbol 3
+Media = 88.265
+Árbol 4
+Media = 89.931
+Árbol 5
+Media = 94.116
+Árbol 6
+Media = 90.484
+Árbol 7
+Media = 88.342
+Árbol 8
+Media = 86.497
+Árbol 9
+Media = 81.63
+Árbol 10
+Media = 84.676
+
+[k = 4]
+
+Árbol 1
+Media = 282.312
+Árbol 2
+Media = 285.016
+Árbol 3
+Media = 286.018
+Árbol 4
+Media = 297.125
+Árbol 5
+Media = 286.203
+Árbol 6
+Media = 288.811
+Árbol 7
+Media = 274.973
+Árbol 8
+Media = 283.801
+Árbol 9
+Media = 279.063
+Árbol 10
+Media = 274.749
+
+[k = 5]
+
+Árbol 1
+Media = 896.199
+Árbol 2
+Media = 887.227
+Árbol 3
+Media = 910.762
+Árbol 4
+Media = 920.042
+Árbol 5
+Media = 948.251
+Árbol 6
+Media = 944.299
+Árbol 7
+Media = 932.039
+Árbol 8
+Media = 968.79
+Árbol 9
+Media = 905.023
+Árbol 10
+Media = 943.422
+
+[k = 6]
+
+Árbol 1
+Media = 2541.12
+Árbol 2
+Media = 2664.92
+Árbol 3
+Media = 2293.26
+Árbol 4
+Media = 2632.88
+Árbol 5
+Media = 2481.36
+Árbol 6
+Media = 2305.23
+Árbol 7
+Media = 2161.65
+Árbol 8
+Media = 2474.16
+Árbol 9
+Media = 2438.98
+Árbol 10
+Media = 2412.6
+
+[Número de nodos = 37000]
+[k = 2]
+
+Árbol 1
+Media = 34.866
+Árbol 2
+Media = 35.236
+Árbol 3
+Media = 34.505
+Árbol 4
+Media = 34.137
+Árbol 5
+Media = 35.174
+Árbol 6
+Media = 35.121
+Árbol 7
+Media = 34.9
+Árbol 8
+Media = 34.765
+Árbol 9
+Media = 34.572
+Árbol 10
+Media = 34.331
+
+[k = 3]
+
+Árbol 1
+Media = 89.376
+Árbol 2
+Media = 88.153
+Árbol 3
+Media = 87.643
+Árbol 4
+Media = 86.749
+Árbol 5
+Media = 87.588
+Árbol 6
+Media = 88.152
+Árbol 7
+Media = 89.381
+Árbol 8
+Media = 90.578
+Árbol 9
+Media = 88.01
+Árbol 10
+Media = 85.92
+
+[k = 4]
+
+Árbol 1
+Media = 277.79
+Árbol 2
+Media = 279.378
+Árbol 3
+Media = 279.001
+Árbol 4
+Media = 289.372
+Árbol 5
+Media = 300.367
+Árbol 6
+Media = 281.454
+Árbol 7
+Media = 277.823
+Árbol 8
+Media = 287.938
+Árbol 9
+Media = 266.454
+Árbol 10
+Media = 292.01
+
+[k = 5]
+
+Árbol 1
+Media = 911.035
+Árbol 2
+Media = 902.127
+Árbol 3
+Media = 929.288
+Árbol 4
+Media = 956.024
+Árbol 5
+Media = 918.542
+Árbol 6
+Media = 947.756
+Árbol 7
+Media = 1061.04
+Árbol 8
+Media = 1116.55
+Árbol 9
+Media = 1042.26
+Árbol 10
+Media = 826.725
+
+[k = 6]
+
+Árbol 1
+Media = 2511.96
+Árbol 2
+Media = 2548.92
+Árbol 3
+Media = 2526.92
+Árbol 4
+Media = 2359.95
+Árbol 5
+Media = 2362.26
+Árbol 6
+Media = 2364.78
+Árbol 7
+Media = 2227.68
+Árbol 8
+Media = 2276.16
+Árbol 9
+Media = 2320.09
+Árbol 10
+Media = 2690.24
+
+[Número de nodos = 38000]
+[k = 2]
+
+Árbol 1
+Media = 34.853
+Árbol 2
+Media = 35.565
+Árbol 3
+Media = 35.291
+Árbol 4
+Media = 35.33
+Árbol 5
+Media = 34.885
+Árbol 6
+Media = 34.151
+Árbol 7
+Media = 35.351
+Árbol 8
+Media = 35.089
+Árbol 9
+Media = 35.674
+Árbol 10
+Media = 34.546
+
+[k = 3]
+
+Árbol 1
+Media = 87.239
+Árbol 2
+Media = 84.851
+Árbol 3
+Media = 88.484
+Árbol 4
+Media = 84.92
+Árbol 5
+Media = 82.267
+Árbol 6
+Media = 90.342
+Árbol 7
+Media = 90.492
+Árbol 8
+Media = 90.234
+Árbol 9
+Media = 89.243
+Árbol 10
+Media = 86.933
+
+[k = 4]
+
+Árbol 1
+Media = 301.825
+Árbol 2
+Media = 308.101
+Árbol 3
+Media = 291.67
+Árbol 4
+Media = 302.482
+Árbol 5
+Media = 286.117
+Árbol 6
+Media = 271.105
+Árbol 7
+Media = 281.277
+Árbol 8
+Media = 292.583
+Árbol 9
+Media = 284.06
+Árbol 10
+Media = 272.983
+
+[k = 5]
+
+Árbol 1
+Media = 842.907
+Árbol 2
+Media = 866.242
+Árbol 3
+Media = 973.671
+Árbol 4
+Media = 947.201
+Árbol 5
+Media = 989.07
+Árbol 6
+Media = 940.741
+Árbol 7
+Media = 968.258
+Árbol 8
+Media = 935.035
+Árbol 9
+Media = 943.274
+Árbol 10
+Media = 922.95
+
+[k = 6]
+
+Árbol 1
+Media = 2402.85
+Árbol 2
+Media = 2283.7
+Árbol 3
+Media = 2358.87
+Árbol 4
+Media = 2593.45
+Árbol 5
+Media = 2598.06
+Árbol 6
+Media = 2912.78
+Árbol 7
+Media = 2951.37
+Árbol 8
+Media = 2536.59
+Árbol 9
+Media = 2690.85
+Árbol 10
+Media = 2615.74
+
+[Número de nodos = 39000]
+[k = 2]
+
+Árbol 1
+Media = 36.604
+Árbol 2
+Media = 36.589
+Árbol 3
+Media = 36.572
+Árbol 4
+Media = 36.734
+Árbol 5
+Media = 36.784
+Árbol 6
+Media = 36.145
+Árbol 7
+Media = 35.722
+Árbol 8
+Media = 36.498
+Árbol 9
+Media = 36.062
+Árbol 10
+Media = 35.891
+
+[k = 3]
+
+Árbol 1
+Media = 87.159
+Árbol 2
+Media = 87.088
+Árbol 3
+Media = 89.019
+Árbol 4
+Media = 86.557
+Árbol 5
+Media = 88.503
+Árbol 6
+Media = 85.244
+Árbol 7
+Media = 90.166
+Árbol 8
+Media = 86.622
+Árbol 9
+Media = 85.206
+Árbol 10
+Media = 83.29
+
+[k = 4]
+
+Árbol 1
+Media = 292.064
+Árbol 2
+Media = 282.065
+Árbol 3
+Media = 265.618
+Árbol 4
+Media = 262.306
+Árbol 5
+Media = 267.003
+Árbol 6
+Media = 281.921
+Árbol 7
+Media = 276.396
+Árbol 8
+Media = 273.529
+Árbol 9
+Media = 266.289
+Árbol 10
+Media = 272.117
+
+[k = 5]
+
+Árbol 1
+Media = 1012.34
+Árbol 2
+Media = 1013.35
+Árbol 3
+Media = 908.448
+Árbol 4
+Media = 890.566
+Árbol 5
+Media = 909.075
+Árbol 6
+Media = 894.02
+Árbol 7
+Media = 891.994
+Árbol 8
+Media = 883.356
+Árbol 9
+Media = 873.057
+Árbol 10
+Media = 934.29
+
+[k = 6]
+
+Árbol 1
+Media = 2694.07
+Árbol 2
+Media = 2771.81
+Árbol 3
+Media = 2791.15
+Árbol 4
+Media = 2294.77
+Árbol 5
+Media = 2456.68
+Árbol 6
+Media = 2319.81
+Árbol 7
+Media = 2572.58
+Árbol 8
+Media = 2405.06
+Árbol 9
+Media = 2598.84
+Árbol 10
+Media = 2417.96
+
+[Número de nodos = 40000]
+[k = 2]
+
+Árbol 1
+Media = 34.634
+Árbol 2
+Media = 35.135
+Árbol 3
+Media = 34.251
+Árbol 4
+Media = 35.161
+Árbol 5
+Media = 34.924
+Árbol 6
+Media = 34.959
+Árbol 7
+Media = 34.775
+Árbol 8
+Media = 35.033
+Árbol 9
+Media = 35.854
+Árbol 10
+Media = 35.239
+
+[k = 3]
+
+Árbol 1
+Media = 87.528
+Árbol 2
+Media = 87.878
+Árbol 3
+Media = 89.885
+Árbol 4
+Media = 90.589
+Árbol 5
+Media = 87.416
+Árbol 6
+Media = 89.448
+Árbol 7
+Media = 91.206
+Árbol 8
+Media = 88.733
+Árbol 9
+Media = 88.53
+Árbol 10
+Media = 90.873
+
+[k = 4]
+
+Árbol 1
+Media = 312.869
+Árbol 2
+Media = 320.148
+Árbol 3
+Media = 276.48
+Árbol 4
+Media = 274.296
+Árbol 5
+Media = 268.909
+Árbol 6
+Media = 278.602
+Árbol 7
+Media = 278.219
+Árbol 8
+Media = 279.502
+Árbol 9
+Media = 276.135
+Árbol 10
+Media = 284.34
+
+[k = 5]
+
+Árbol 1
+Media = 840.316
+Árbol 2
+Media = 929.943
+Árbol 3
+Media = 900.373
+Árbol 4
+Media = 943.089
+Árbol 5
+Media = 919.937
+Árbol 6
+Media = 969.507
+Árbol 7
+Media = 974.71
+Árbol 8
+Media = 1017.11
+Árbol 9
+Media = 974.33
+Árbol 10
+Media = 1024.22
+
+[k = 6]
+
+Árbol 1
+Media = 2420.92
+Árbol 2
+Media = 2348.41
+Árbol 3
+Media = 2470.61
+Árbol 4
+Media = 2253.1
+Árbol 5
+Media = 2375.18
+Árbol 6
+Media = 2733.48
+Árbol 7
+Media = 2569.86
+Árbol 8
+Media = 2620.64
+Árbol 9
+Media = 2707.47
+Árbol 10
+Media = 2384.75
+
+[Número de nodos = 41000]
+[k = 2]
+
+Árbol 1
+Media = 36.842
+Árbol 2
+Media = 37.121
+Árbol 3
+Media = 36.61
+Árbol 4
+Media = 36.313
+Árbol 5
+Media = 37.656
+Árbol 6
+Media = 36.729
+Árbol 7
+Media = 36.572
+Árbol 8
+Media = 37.458
+Árbol 9
+Media = 37.156
+Árbol 10
+Media = 36.163
+
+[k = 3]
+
+Árbol 1
+Media = 84.97
+Árbol 2
+Media = 84.685
+Árbol 3
+Media = 85.924
+Árbol 4
+Media = 82.764
+Árbol 5
+Media = 86.404
+Árbol 6
+Media = 83.149
+Árbol 7
+Media = 80.098
+Árbol 8
+Media = 81.539
+Árbol 9
+Media = 81.259
+Árbol 10
+Media = 82.017
+
+[k = 4]
+
+Árbol 1
+Media = 257.145
+Árbol 2
+Media = 263.806
+Árbol 3
+Media = 265.493
+Árbol 4
+Media = 248.477
+Árbol 5
+Media = 247.221
+Árbol 6
+Media = 253.841
+Árbol 7
+Media = 253.081
+Árbol 8
+Media = 258.146
+Árbol 9
+Media = 261.64
+Árbol 10
+Media = 263.84
+
+[k = 5]
+
+Árbol 1
+Media = 876.887
+Árbol 2
+Media = 878.008
+Árbol 3
+Media = 904.713
+Árbol 4
+Media = 918.55
+Árbol 5
+Media = 971.385
+Árbol 6
+Media = 960.897
+Árbol 7
+Media = 1083.77
+Árbol 8
+Media = 1084.4
+Árbol 9
+Media = 1119.78
+Árbol 10
+Media = 913.898
+
+[k = 6]
+
+Árbol 1
+Media = 2756.38
+Árbol 2
+Media = 2523.75
+Árbol 3
+Media = 2391.08
+Árbol 4
+Media = 2346.61
+Árbol 5
+Media = 2395.03
+Árbol 6
+Media = 2890.64
+Árbol 7
+Media = 2619.16
+Árbol 8
+Media = 2592.49
+Árbol 9
+Media = 2478.41
+Árbol 10
+Media = 2420.97
+
+[Número de nodos = 42000]
+[k = 2]
+
+Árbol 1
+Media = 33.818
+Árbol 2
+Media = 33.406
+Árbol 3
+Media = 34.618
+Árbol 4
+Media = 34.216
+Árbol 5
+Media = 34.832
+Árbol 6
+Media = 34.28
+Árbol 7
+Media = 33.944
+Árbol 8
+Media = 34.28
+Árbol 9
+Media = 34.696
+Árbol 10
+Media = 35.09
+
+[k = 3]
+
+Árbol 1
+Media = 84.912
+Árbol 2
+Media = 86.903
+Árbol 3
+Media = 88.286
+Árbol 4
+Media = 89.445
+Árbol 5
+Media = 90.33
+Árbol 6
+Media = 88.359
+Árbol 7
+Media = 85.337
+Árbol 8
+Media = 86.866
+Árbol 9
+Media = 83.331
+Árbol 10
+Media = 82.807
+
+[k = 4]
+
+Árbol 1
+Media = 265.792
+Árbol 2
+Media = 264.363
+Árbol 3
+Media = 256.015
+Árbol 4
+Media = 254.222
+Árbol 5
+Media = 266.075
+Árbol 6
+Media = 273.864
+Árbol 7
+Media = 263.939
+Árbol 8
+Media = 296.371
+Árbol 9
+Media = 311.538
+Árbol 10
+Media = 295.408
+
+[k = 5]
+
+Árbol 1
+Media = 1038.05
+Árbol 2
+Media = 1007.98
+Árbol 3
+Media = 947.984
+Árbol 4
+Media = 891.06
+Árbol 5
+Media = 872.4
+Árbol 6
+Media = 927.844
+Árbol 7
+Media = 936.083
+Árbol 8
+Media = 971.543
+Árbol 9
+Media = 999.797
+Árbol 10
+Media = 1037.83
+
+[k = 6]
+
+Árbol 1
+Media = 2883.11
+Árbol 2
+Media = 2524.42
+Árbol 3
+Media = 2509.18
+Árbol 4
+Media = 2618.5
+Árbol 5
+Media = 2583.29
+Árbol 6
+Media = 2407.21
+Árbol 7
+Media = 2522.29
+Árbol 8
+Media = 2556.97
+Árbol 9
+Media = 2436.38
+Árbol 10
+Media = 2526.61
+
+[Número de nodos = 43000]
+[k = 2]
+
+Árbol 1
+Media = 36.749
+Árbol 2
+Media = 37.158
+Árbol 3
+Media = 37.378
+Árbol 4
+Media = 37.36
+Árbol 5
+Media = 37.403
+Árbol 6
+Media = 37.536
+Árbol 7
+Media = 38.643
+Árbol 8
+Media = 36.686
+Árbol 9
+Media = 37.069
+Árbol 10
+Media = 37.515
+
+[k = 3]
+
+Árbol 1
+Media = 86.744
+Árbol 2
+Media = 86.167
+Árbol 3
+Media = 87.198
+Árbol 4
+Media = 85.414
+Árbol 5
+Media = 86.866
+Árbol 6
+Media = 89.183
+Árbol 7
+Media = 86.547
+Árbol 8
+Media = 88.573
+Árbol 9
+Media = 81.831
+Árbol 10
+Media = 85.52
+
+[k = 4]
+
+Árbol 1
+Media = 264.604
+Árbol 2
+Media = 264.863
+Árbol 3
+Media = 268.019
+Árbol 4
+Media = 264.876
+Árbol 5
+Media = 262.823
+Árbol 6
+Media = 264.34
+Árbol 7
+Media = 262.919
+Árbol 8
+Media = 280.391
+Árbol 9
+Media = 282.023
+Árbol 10
+Media = 275.42
+
+[k = 5]
+
+Árbol 1
+Media = 985.548
+Árbol 2
+Media = 887.64
+Árbol 3
+Media = 875.03
+Árbol 4
+Media = 934.865
+Árbol 5
+Media = 900.627
+Árbol 6
+Media = 921.117
+Árbol 7
+Media = 859.025
+Árbol 8
+Media = 827.863
+Árbol 9
+Media = 858.27
+Árbol 10
+Media = 851.181
+
+[k = 6]
+
+Árbol 1
+Media = 2425.48
+Árbol 2
+Media = 2698.64
+Árbol 3
+Media = 2650.91
+Árbol 4
+Media = 2375.18
+Árbol 5
+Media = 2827.9
+Árbol 6
+Media = 2670.73
+Árbol 7
+Media = 2700.18
+Árbol 8
+Media = 2678.27
+Árbol 9
+Media = 2502.14
+Árbol 10
+Media = 2480.28
+
+[Número de nodos = 44000]
+[k = 2]
+
+Árbol 1
+Media = 36.612
+Árbol 2
+Media = 36.625
+Árbol 3
+Media = 34.144
+Árbol 4
+Media = 34.181
+Árbol 5
+Media = 34.167
+Árbol 6
+Media = 33.65
+Árbol 7
+Media = 34.085
+Árbol 8
+Media = 34.339
+Árbol 9
+Media = 33.862
+Árbol 10
+Media = 33.834
+
+[k = 3]
+
+Árbol 1
+Media = 91.851
+Árbol 2
+Media = 87.63
+Árbol 3
+Media = 90.874
+Árbol 4
+Media = 92.454
+Árbol 5
+Media = 91.752
+Árbol 6
+Media = 88.552
+Árbol 7
+Media = 91.939
+Árbol 8
+Media = 85.489
+Árbol 9
+Media = 86.551
+Árbol 10
+Media = 87.761
+
+[k = 4]
+
+Árbol 1
+Media = 281.787
+Árbol 2
+Media = 293.764
+Árbol 3
+Media = 282.775
+Árbol 4
+Media = 291.988
+Árbol 5
+Media = 291.338
+Árbol 6
+Media = 287.836
+Árbol 7
+Media = 296.028
+Árbol 8
+Media = 293.71
+Árbol 9
+Media = 297.628
+Árbol 10
+Media = 281.126
+
+[k = 5]
+
+Árbol 1
+Media = 1008.35
+Árbol 2
+Media = 944.402
+Árbol 3
+Media = 886.962
+Árbol 4
+Media = 937.719
+Árbol 5
+Media = 911.096
+Árbol 6
+Media = 994.94
+Árbol 7
+Media = 957.042
+Árbol 8
+Media = 940.137
+Árbol 9
+Media = 936.659
+Árbol 10
+Media = 909.191
+
+[k = 6]
+
+Árbol 1
+Media = 2357.87
+Árbol 2
+Media = 2693.1
+Árbol 3
+Media = 2830.31
+Árbol 4
+Media = 2713.45
+Árbol 5
+Media = 2742.37
+Árbol 6
+Media = 2617.56
+Árbol 7
+Media = 2625.32
+Árbol 8
+Media = 2567.31
+Árbol 9
+Media = 2685.47
+Árbol 10
+Media = 3136.6
+
+[Número de nodos = 45000]
+[k = 2]
+
+Árbol 1
+Media = 38.897
+Árbol 2
+Media = 37.95
+Árbol 3
+Media = 38.007
+Árbol 4
+Media = 37.324
+Árbol 5
+Media = 37.941
+Árbol 6
+Media = 38.215
+Árbol 7
+Media = 38.345
+Árbol 8
+Media = 38.244
+Árbol 9
+Media = 39.619
+Árbol 10
+Media = 37.863
+
+[k = 3]
+
+Árbol 1
+Media = 88.751
+Árbol 2
+Media = 94.53
+Árbol 3
+Media = 94.869
+Árbol 4
+Media = 94.111
+Árbol 5
+Media = 92.046
+Árbol 6
+Media = 94.503
+Árbol 7
+Media = 95.426
+Árbol 8
+Media = 92.317
+Árbol 9
+Media = 90.241
+Árbol 10
+Media = 94.89
+
+[k = 4]
+
+Árbol 1
+Media = 308.891
+Árbol 2
+Media = 297.14
+Árbol 3
+Media = 285.576
+Árbol 4
+Media = 293.091
+Árbol 5
+Media = 284.653
+Árbol 6
+Media = 282.746
+Árbol 7
+Media = 297.673
+Árbol 8
+Media = 292.18
+Árbol 9
+Media = 288.544
+Árbol 10
+Media = 284.882
+
+[k = 5]
+
+Árbol 1
+Media = 1003.84
+Árbol 2
+Media = 991.258
+Árbol 3
+Media = 1000.51
+Árbol 4
+Media = 917.675
+Árbol 5
+Media = 913.727
+Árbol 6
+Media = 914.692
+Árbol 7
+Media = 949.351
+Árbol 8
+Media = 911.222
+Árbol 9
+Media = 895.382
+Árbol 10
+Media = 842.731
+
+[k = 6]
+
+Árbol 1
+Media = 2481.91
+Árbol 2
+Media = 2493.02
+Árbol 3
+Media = 2669.35
+Árbol 4
+Media = 2561.47
+Árbol 5
+Media = 2347.22
+Árbol 6
+Media = 2409.98
+Árbol 7
+Media = 2572.26
+Árbol 8
+Media = 2992.58
+Árbol 9
+Media = 2600.23
+Árbol 10
+Media = 2644.48
+
+[Número de nodos = 46000]
+[k = 2]
+
+Árbol 1
+Media = 36.764
+Árbol 2
+Media = 36.725
+Árbol 3
+Media = 36.232
+Árbol 4
+Media = 36.694
+Árbol 5
+Media = 36.356
+Árbol 6
+Media = 36.274
+Árbol 7
+Media = 36.094
+Árbol 8
+Media = 35.79
+Árbol 9
+Media = 35.679
+Árbol 10
+Media = 35.883
+
+[k = 3]
+
+Árbol 1
+Media = 90.689
+Árbol 2
+Media = 88.214
+Árbol 3
+Media = 86.342
+Árbol 4
+Media = 85.829
+Árbol 5
+Media = 88.487
+Árbol 6
+Media = 89.404
+Árbol 7
+Media = 92.474
+Árbol 8
+Media = 87.335
+Árbol 9
+Media = 88.262
+Árbol 10
+Media = 87.689
+
+[k = 4]
+
+Árbol 1
+Media = 300.565
+Árbol 2
+Media = 308.163
+Árbol 3
+Media = 282.066
+Árbol 4
+Media = 299.679
+Árbol 5
+Media = 312.429
+Árbol 6
+Media = 313.892
+Árbol 7
+Media = 293.99
+Árbol 8
+Media = 293.796
+Árbol 9
+Media = 314.152
+Árbol 10
+Media = 327.585
+
+[k = 5]
+
+Árbol 1
+Media = 1044.74
+Árbol 2
+Media = 1039.48
+Árbol 3
+Media = 1019.26
+Árbol 4
+Media = 983.842
+Árbol 5
+Media = 947.347
+Árbol 6
+Media = 910.587
+Árbol 7
+Media = 952.951
+Árbol 8
+Media = 944.522
+Árbol 9
+Media = 935.382
+Árbol 10
+Media = 1005.9
+
+[k = 6]
+
+Árbol 1
+Media = 2546.28
+Árbol 2
+Media = 2613.38
+Árbol 3
+Media = 2779.1
+Árbol 4
+Media = 2513.52
+Árbol 5
+Media = 2613.3
+Árbol 6
+Media = 3008.08
+Árbol 7
+Media = 2452.41
+Árbol 8
+Media = 2448.37
+Árbol 9
+Media = 2520.49
+Árbol 10
+Media = 2918.44
+
+[Número de nodos = 47000]
+[k = 2]
+
+Árbol 1
+Media = 38.67
+Árbol 2
+Media = 38.132
+Árbol 3
+Media = 38.114
+Árbol 4
+Media = 38.186
+Árbol 5
+Media = 38.587
+Árbol 6
+Media = 38.264
+Árbol 7
+Media = 38.725
+Árbol 8
+Media = 38.731
+Árbol 9
+Media = 38.442
+Árbol 10
+Media = 37.65
+
+[k = 3]
+
+Árbol 1
+Media = 88.079
+Árbol 2
+Media = 81.236
+Árbol 3
+Media = 86.828
+Árbol 4
+Media = 81.371
+Árbol 5
+Media = 78.374
+Árbol 6
+Media = 85.709
+Árbol 7
+Media = 83.258
+Árbol 8
+Media = 83.788
+Árbol 9
+Media = 85.647
+Árbol 10
+Media = 87.063
+
+[k = 4]
+
+Árbol 1
+Media = 307.997
+Árbol 2
+Media = 314.574
+Árbol 3
+Media = 279.882
+Árbol 4
+Media = 269.424
+Árbol 5
+Media = 284.483
+Árbol 6
+Media = 281.41
+Árbol 7
+Media = 280.566
+Árbol 8
+Media = 271.764
+Árbol 9
+Media = 285.559
+Árbol 10
+Media = 284.904
+
+[k = 5]
+
+Árbol 1
+Media = 1067.55
+Árbol 2
+Media = 1054.68
+Árbol 3
+Media = 1063.51
+Árbol 4
+Media = 1081.8
+Árbol 5
+Media = 1066.56
+Árbol 6
+Media = 1038.4
+Árbol 7
+Media = 992.956
+Árbol 8
+Media = 979.147
+Árbol 9
+Media = 1038.11
+Árbol 10
+Media = 1045.96
+
+[k = 6]
+
+Árbol 1
+Media = 2647.18
+Árbol 2
+Media = 2762.24
+Árbol 3
+Media = 2807.82
+Árbol 4
+Media = 2740.95
+Árbol 5
+Media = 2638.73
+Árbol 6
+Media = 2826.4
+Árbol 7
+Media = 2839.56
+Árbol 8
+Media = 2755.71
+Árbol 9
+Media = 2723.52
+Árbol 10
+Media = 2784.74
+
+[Número de nodos = 48000]
+[k = 2]
+
+Árbol 1
+Media = 35.278
+Árbol 2
+Media = 35.42
+Árbol 3
+Media = 35.606
+Árbol 4
+Media = 35.493
+Árbol 5
+Media = 35.025
+Árbol 6
+Media = 35.635
+Árbol 7
+Media = 34.745
+Árbol 8
+Media = 35.188
+Árbol 9
+Media = 35.976
+Árbol 10
+Media = 35.457
+
+[k = 3]
+
+Árbol 1
+Media = 89.81
+Árbol 2
+Media = 90.645
+Árbol 3
+Media = 89.844
+Árbol 4
+Media = 91.452
+Árbol 5
+Media = 93.393
+Árbol 6
+Media = 93.5
+Árbol 7
+Media = 89.62
+Árbol 8
+Media = 87.397
+Árbol 9
+Media = 89.016
+Árbol 10
+Media = 90.119
+
+[k = 4]
+
+Árbol 1
+Media = 304.47
+Árbol 2
+Media = 268.315
+Árbol 3
+Media = 279.902
+Árbol 4
+Media = 276.429
+Árbol 5
+Media = 283.728
+Árbol 6
+Media = 270.219
+Árbol 7
+Media = 266.962
+Árbol 8
+Media = 287.071
+Árbol 9
+Media = 281.86
+Árbol 10
+Media = 317.839
+
+[k = 5]
+
+Árbol 1
+Media = 942.487
+Árbol 2
+Media = 983.339
+Árbol 3
+Media = 1007.55
+Árbol 4
+Media = 1068.43
+Árbol 5
+Media = 1060.38
+Árbol 6
+Media = 1027.59
+Árbol 7
+Media = 997.81
+Árbol 8
+Media = 994.8
+Árbol 9
+Media = 1014.72
+Árbol 10
+Media = 897.436
+
+[k = 6]
+
+Árbol 1
+Media = 2557.67
+Árbol 2
+Media = 2456.73
+Árbol 3
+Media = 2561.48
+Árbol 4
+Media = 2573.59
+Árbol 5
+Media = 2731.99
+Árbol 6
+Media = 2501.08
+Árbol 7
+Media = 2582.13
+Árbol 8
+Media = 2756.15
+Árbol 9
+Media = 2811.69
+Árbol 10
+Media = 2547.2
+
+[Número de nodos = 49000]
+[k = 2]
+
+Árbol 1
+Media = 36.238
+Árbol 2
+Media = 36.941
+Árbol 3
+Media = 36.855
+Árbol 4
+Media = 36.207
+Árbol 5
+Media = 36.822
+Árbol 6
+Media = 36.892
+Árbol 7
+Media = 36.433
+Árbol 8
+Media = 36.241
+Árbol 9
+Media = 36.319
+Árbol 10
+Media = 36.759
+
+[k = 3]
+
+Árbol 1
+Media = 92.43
+Árbol 2
+Media = 93.157
+Árbol 3
+Media = 88.264
+Árbol 4
+Media = 90.328
+Árbol 5
+Media = 94.237
+Árbol 6
+Media = 91.105
+Árbol 7
+Media = 92.709
+Árbol 8
+Media = 92.936
+Árbol 9
+Media = 90.35
+Árbol 10
+Media = 89.285
+
+[k = 4]
+
+Árbol 1
+Media = 304.283
+Árbol 2
+Media = 295.77
+Árbol 3
+Media = 290.874
+Árbol 4
+Media = 301.344
+Árbol 5
+Media = 302.279
+Árbol 6
+Media = 294.48
+Árbol 7
+Media = 290.811
+Árbol 8
+Media = 294.729
+Árbol 9
+Media = 291.391
+Árbol 10
+Media = 314.401
+
+[k = 5]
+
+Árbol 1
+Media = 948.74
+Árbol 2
+Media = 993.207
+Árbol 3
+Media = 993.3
+Árbol 4
+Media = 962.37
+Árbol 5
+Media = 949.313
+Árbol 6
+Media = 955.623
+Árbol 7
+Media = 967.057
+Árbol 8
+Media = 997.091
+Árbol 9
+Media = 972.301
+Árbol 10
+Media = 1002.77
+
+[k = 6]
+
+Árbol 1
+Media = 2864.33
+Árbol 2
+Media = 3352.42
+Árbol 3
+Media = 3334.87
+Árbol 4
+Media = 2553.29
+Árbol 5
+Media = 2625.48
+Árbol 6
+Media = 2836.36
+Árbol 7
+Media = 3203.1
+Árbol 8
+Media = 2552.67
+Árbol 9
+Media = 2519.73
+Árbol 10
+Media = 2692.89
+
+[Número de nodos = 50000]
+[k = 2]
+
+Árbol 1
+Media = 38.734
+Árbol 2
+Media = 38.419
+Árbol 3
+Media = 38.643
+Árbol 4
+Media = 38.74
+Árbol 5
+Media = 39.388
+Árbol 6
+Media = 38.775
+Árbol 7
+Media = 38.83
+Árbol 8
+Media = 38.909
+Árbol 9
+Media = 34.48
+Árbol 10
+Media = 34.232
+
+[k = 3]
+
+Árbol 1
+Media = 92.42
+Árbol 2
+Media = 93.563
+Árbol 3
+Media = 89.647
+Árbol 4
+Media = 91.06
+Árbol 5
+Media = 91.72
+Árbol 6
+Media = 92.286
+Árbol 7
+Media = 91.159
+Árbol 8
+Media = 95.491
+Árbol 9
+Media = 92.946
+Árbol 10
+Media = 90.831
+
+[k = 4]
+
+Árbol 1
+Media = 318.834
+Árbol 2
+Media = 289.8
+Árbol 3
+Media = 275.8
+Árbol 4
+Media = 297.64
+Árbol 5
+Media = 289.279
+Árbol 6
+Media = 288.278
+Árbol 7
+Media = 296.799
+Árbol 8
+Media = 296.904
+Árbol 9
+Media = 316.367
+Árbol 10
+Media = 316.305
+
+[k = 5]
+
+Árbol 1
+Media = 908.644
+Árbol 2
+Media = 959.948
+Árbol 3
+Media = 990.523
+Árbol 4
+Media = 1022.18
+Árbol 5
+Media = 997.609
+Árbol 6
+Media = 907.975
+Árbol 7
+Media = 928.989
+Árbol 8
+Media = 934.374
+Árbol 9
+Media = 913.258
+Árbol 10
+Media = 1036.13
+
+[k = 6]
+
+Árbol 1
+Media = 2896.08
+Árbol 2
+Media = 3150.26
+Árbol 3
+Media = 2650.78
+Árbol 4
+Media = 2717.43
+Árbol 5
+Media = 2694.27
+Árbol 6
+Media = 3093.24
+Árbol 7
+Media = 2742.29
+Árbol 8
+Media = 3215.24
+Árbol 9
+Media = 2857.72
+Árbol 10
+Media = 2885.07
+
+[Número de nodos = 60000]
+[k = 2]
+
+Árbol 1
+Media = 39.977
+Árbol 2
+Media = 34.529
+Árbol 3
+Media = 31.558
+Árbol 4
+Media = 30.342
+Árbol 5
+Media = 28.449
+Árbol 6
+Media = 27.919
+Árbol 7
+Media = 27.195
+Árbol 8
+Media = 26.788
+Árbol 9
+Media = 26.149
+Árbol 10
+Media = 25.55
+
+[k = 3]
+
+Árbol 1
+Media = 92.433
+Árbol 2
+Media = 90.197
+Árbol 3
+Media = 89.135
+Árbol 4
+Media = 89.15
+Árbol 5
+Media = 91.809
+Árbol 6
+Media = 88.636
+Árbol 7
+Media = 89.468
+Árbol 8
+Media = 88.733
+Árbol 9
+Media = 95.049
+Árbol 10
+Media = 90.787
+
+[k = 4]
+
+Árbol 1
+Media = 304.441
+Árbol 2
+Media = 318.797
+Árbol 3
+Media = 308.515
+Árbol 4
+Media = 298.687
+Árbol 5
+Media = 295.501
+Árbol 6
+Media = 310.145
+Árbol 7
+Media = 284.407
+Árbol 8
+Media = 311.115
+Árbol 9
+Media = 346.579
+Árbol 10
+Media = 335.383
+
+[k = 5]
+
+Árbol 1
+Media = 1016.65
+Árbol 2
+Media = 1039.7
+Árbol 3
+Media = 1105.14
+Árbol 4
+Media = 1117.94
+Árbol 5
+Media = 1136.45
+Árbol 6
+Media = 973.665
+Árbol 7
+Media = 1001.72
+Árbol 8
+Media = 994.641
+Árbol 9
+Media = 1155.46
+Árbol 10
+Media = 1127.72
+
+[k = 6]
+
+Árbol 1
+Media = 2844.12
+Árbol 2
+Media = 2865.92
+Árbol 3
+Media = 2770.03
+Árbol 4
+Media = 2968.28
+Árbol 5
+Media = 3147.58
+Árbol 6
+Media = 2758.44
+Árbol 7
+Media = 3105.02
+Árbol 8
+Media = 3136.52
+Árbol 9
+Media = 3578.95
+Árbol 10
+Media = 2993.77
+
+[Número de nodos = 70000]
+[k = 2]
+
+Árbol 1
+Media = 38.462
+Árbol 2
+Media = 38.252
+Árbol 3
+Media = 38.338
+Árbol 4
+Media = 38.558
+Árbol 5
+Media = 37.927
+Árbol 6
+Media = 37.744
+Árbol 7
+Media = 37.267
+Árbol 8
+Media = 38.148
+Árbol 9
+Media = 37.966
+Árbol 10
+Media = 37.836
+
+[k = 3]
+
+Árbol 1
+Media = 99.925
+Árbol 2
+Media = 98.96
+Árbol 3
+Media = 95.439
+Árbol 4
+Media = 91.565
+Árbol 5
+Media = 92.999
+Árbol 6
+Media = 92.091
+Árbol 7
+Media = 95.16
+Árbol 8
+Media = 92.562
+Árbol 9
+Media = 90.712
+Árbol 10
+Media = 93.499
+
+[k = 4]
+
+Árbol 1
+Media = 307.029
+Árbol 2
+Media = 301.722
+Árbol 3
+Media = 312.237
+Árbol 4
+Media = 314.671
+Árbol 5
+Media = 311.176
+Árbol 6
+Media = 324.335
+Árbol 7
+Media = 355.553
+Árbol 8
+Media = 351.422
+Árbol 9
+Media = 352.817
+Árbol 10
+Media = 357.303
+
+[k = 5]
+
+Árbol 1
+Media = 1170.57
+Árbol 2
+Media = 1075.1
+Árbol 3
+Media = 1019.75
+Árbol 4
+Media = 1026.92
+Árbol 5
+Media = 958.768
+Árbol 6
+Media = 973.163
+Árbol 7
+Media = 1092.67
+Árbol 8
+Media = 1120.28
+Árbol 9
+Media = 1075.45
+Árbol 10
+Media = 1054.93
+
+[k = 6]
+
+Árbol 1
+Media = 3011.23
+Árbol 2
+Media = 3185.06
+Árbol 3
+Media = 3408.02
+Árbol 4
+Media = 3312.09
+Árbol 5
+Media = 3184.07
+Árbol 6
+Media = 3312.92
+Árbol 7
+Media = 2824.82
+Árbol 8
+Media = 3280.6
+Árbol 9
+Media = 3316.74
+Árbol 10
+Media = 3157.34
+
+[Número de nodos = 80000]
+[k = 2]
+
+Árbol 1
+Media = 38.979
+Árbol 2
+Media = 40.007
+Árbol 3
+Media = 39.611
+Árbol 4
+Media = 39.168
+Árbol 5
+Media = 39.729
+Árbol 6
+Media = 35.092
+Árbol 7
+Media = 34.825
+Árbol 8
+Media = 35.695
+Árbol 9
+Media = 35.418
+Árbol 10
+Media = 34.851
+
+[k = 3]
+
+Árbol 1
+Media = 90.126
+Árbol 2
+Media = 88.786
+Árbol 3
+Media = 92.442
+Árbol 4
+Media = 91.747
+Árbol 5
+Media = 92.227
+Árbol 6
+Media = 89.975
+Árbol 7
+Media = 89.752
+Árbol 8
+Media = 92.486
+Árbol 9
+Media = 89.398
+Árbol 10
+Media = 89.27
+
+[k = 4]
+
+Árbol 1
+Media = 320.542
+Árbol 2
+Media = 344.416
+Árbol 3
+Media = 343.06
+Árbol 4
+Media = 328.597
+Árbol 5
+Media = 340.341
+Árbol 6
+Media = 335.518
+Árbol 7
+Media = 328.315
+Árbol 8
+Media = 342.57
+Árbol 9
+Media = 315.912
+Árbol 10
+Media = 293.386
+
+[k = 5]
+
+Árbol 1
+Media = 1103.71
+Árbol 2
+Media = 1169.92
+Árbol 3
+Media = 1211.98
+Árbol 4
+Media = 1030.24
+Árbol 5
+Media = 1053.11
+Árbol 6
+Media = 1383.86
+Árbol 7
+Media = 1266.12
+Árbol 8
+Media = 1027.8
+Árbol 9
+Media = 1042.68
+Árbol 10
+Media = 1023.67
+
+[k = 6]
+
+Árbol 1
+Media = 3264.76
+Árbol 2
+Media = 3292.69
+Árbol 3
+Media = 3833.91
+Árbol 4
+Media = 3123.07
+Árbol 5
+Media = 3496.89
+Árbol 6
+Media = 3650.81
+Árbol 7
+Media = 3720.18
+Árbol 8
+Media = 3253.81
+Árbol 9
+Media = 3281.89
+Árbol 10
+Media = 3528.99
+
+[Número de nodos = 90000]
+[k = 2]
+
+Árbol 1
+Media = 39.966
+Árbol 2
+Media = 40.154
+Árbol 3
+Media = 39.897
+Árbol 4
+Media = 40.629
+Árbol 5
+Media = 39.866
+Árbol 6
+Media = 39.617
+Árbol 7
+Media = 38.837
+Árbol 8
+Media = 40.012
+Árbol 9
+Media = 38.992
+Árbol 10
+Media = 38.468
+
+[k = 3]
+
+Árbol 1
+Media = 96.729
+Árbol 2
+Media = 94.059
+Árbol 3
+Media = 95.433
+Árbol 4
+Media = 95.447
+Árbol 5
+Media = 95.042
+Árbol 6
+Media = 89.278
+Árbol 7
+Media = 90.506
+Árbol 8
+Media = 90.57
+Árbol 9
+Media = 88.686
+Árbol 10
+Media = 94.004
+
+[k = 4]
+
+Árbol 1
+Media = 325.731
+Árbol 2
+Media = 336.423
+Árbol 3
+Media = 336.462
+Árbol 4
+Media = 337.378
+Árbol 5
+Media = 317.835
+Árbol 6
+Media = 314.947
+Árbol 7
+Media = 341.471
+Árbol 8
+Media = 340.75
+Árbol 9
+Media = 352.6
+Árbol 10
+Media = 360.763
+
+[k = 5]
+
+Árbol 1
+Media = 1143.77
+Árbol 2
+Media = 1140.64
+Árbol 3
+Media = 1107.07
+Árbol 4
+Media = 1243.23
+Árbol 5
+Media = 1186.94
+Árbol 6
+Media = 1320.17
+Árbol 7
+Media = 1277.76
+Árbol 8
+Media = 1401.86
+Árbol 9
+Media = 1202.84
+Árbol 10
+Media = 1187.71
+
+[k = 6]
+
+Árbol 1
+Media = 3867.59
+Árbol 2
+Media = 3415.31
+Árbol 3
+Media = 3977.74
+Árbol 4
+Media = 3543.55
+Árbol 5
+Media = 3275.57
+Árbol 6
+Media = 3652.84
+Árbol 7
+Media = 3623.5
+Árbol 8
+Media = 3786.12
+Árbol 9
+Media = 3595.95
+Árbol 10
+Media = 3680.49
+
+[Número de nodos = 100000]
+[k = 2]
+
+Árbol 1
+Media = 39.439
+Árbol 2
+Media = 36.391
+Árbol 3
+Media = 37.445
+Árbol 4
+Media = 36.765
+Árbol 5
+Media = 37.09
+Árbol 6
+Media = 36.896
+Árbol 7
+Media = 36.972
+Árbol 8
+Media = 37.211
+Árbol 9
+Media = 36.638
+Árbol 10
+Media = 38.078
+
+[k = 3]
+
+Árbol 1
+Media = 96.793
+Árbol 2
+Media = 94.426
+Árbol 3
+Media = 94.762
+Árbol 4
+Media = 97.715
+Árbol 5
+Media = 96.339
+Árbol 6
+Media = 92.118
+Árbol 7
+Media = 92.118
+Árbol 8
+Media = 95.622
+Árbol 9
+Media = 96.077
+Árbol 10
+Media = 93.003
+
+[k = 4]
+
+Árbol 1
+Media = 320.463
+Árbol 2
+Media = 313.393
+Árbol 3
+Media = 328.1
+Árbol 4
+Media = 323.551
+Árbol 5
+Media = 332.665
+Árbol 6
+Media = 328.039
+Árbol 7
+Media = 302.376
+Árbol 8
+Media = 289.175
+Árbol 9
+Media = 305.071
+Árbol 10
+Media = 305.855
+
+[k = 5]
+
+Árbol 1
+Media = 1142.95
+Árbol 2
+Media = 1188.83
+Árbol 3
+Media = 1219.63
+Árbol 4
+Media = 1105.02
+Árbol 5
+Media = 1166.94
+Árbol 6
+Media = 1111.22
+Árbol 7
+Media = 1115.8
+Árbol 8
+Media = 1081.01
+Árbol 9
+Media = 1097.45
+Árbol 10
+Media = 1208.09
+
+[k = 6]
+
+Árbol 1
+Media = 3610.52
+Árbol 2
+Media = 3566.74
+Árbol 3
+Media = 3549
+Árbol 4
+Media = 3721.58
+Árbol 5
+Media = 3314.32
+Árbol 6
+Media = 3487.64
+Árbol 7
+Media = 3587.29
+Árbol 8
+Media = 3630.73
+Árbol 9
+Media = 3557.57
+Árbol 10
+Media = 3969.95
