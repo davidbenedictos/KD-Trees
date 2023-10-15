@@ -9,9 +9,9 @@ int main() {
     int N,n_min,n_max,step,Q;
 
     N = 10;
-    n_min = 60000;
-    n_max = 100000;
-    step = 10000;
+    n_min = 1000;
+    n_max = 50000;
+    step = 1000;
     Q = 1000;
     
     std::cout << "Número de árboles = " << N << std::endl;
