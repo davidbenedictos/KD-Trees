@@ -3,15 +3,17 @@
 
 int main() {
     // Elegir tamaño 
-    std::cout << "Elige Número de nodos y número de variables:" << std::endl;
-    int N;
+    //std::cout << "Elige Número de nodos:" << std::endl;
+    //freopen("test1", "w", stdout);
+    int N = 1000000;
     std::random_device rd;
     std::mt19937 mt(rd());
     std::uniform_real_distribution<double> dist(0, 1);
     Point p;
     float media = 0.0;
     int nodeExpanded = 0;
-    while(cin >> N){
+    for(int count = 0; count < 10; ++count){
+        cout << "Para N = " << N << endl;
          for(int i = 2; i <= 6; ++i){
             cout << "Creamos arbol con k = " << i << endl;
             KDTree t(N, i);
@@ -22,7 +24,7 @@ int main() {
                 for(int j = 0; j < i ; ++j){
                     p[j] =   dist(mt);
                 }
-                cout << "Resultado " << k+1 << " ";
+               // cout << "Resultado " << k+1 << " ";
                 t.nearestNode(p, nodeExpanded);
                 media += nodeExpanded;
             }
@@ -31,6 +33,9 @@ int main() {
             cout << endl;
 
          }
+         N += 1000000;
+         cout <<endl;
+         cout << endl;
     }
  
 

@@ -1,166 +1,180 @@
-Elige Número de nodos y número de variables:
+Para N = 1000000
 Creamos arbol con k = 2
-Resultado 1 Nodos visitados: 54
-Resultado 2 Nodos visitados: 38
-Resultado 3 Nodos visitados: 58
-Resultado 4 Nodos visitados: 41
-Resultado 5 Nodos visitados: 31
-Resultado 6 Nodos visitados: 24
-Resultado 7 Nodos visitados: 46
-Resultado 8 Nodos visitados: 28
-Resultado 9 Nodos visitados: 36
-Resultado 10 Nodos visitados: 39
-Resultado 11 Nodos visitados: 51
-Resultado 12 Nodos visitados: 34
-Resultado 13 Nodos visitados: 30
-Resultado 14 Nodos visitados: 36
-Resultado 15 Nodos visitados: 41
-Resultado 16 Nodos visitados: 45
-Resultado 17 Nodos visitados: 29
-Resultado 18 Nodos visitados: 54
-Resultado 19 Nodos visitados: 38
-Resultado 20 Nodos visitados: 63
-Resultado 21 Nodos visitados: 65
-Resultado 22 Nodos visitados: 47
-Resultado 23 Nodos visitados: 30
-Resultado 24 Nodos visitados: 48
-Resultado 25 Nodos visitados: 187
-Resultado 26 Nodos visitados: 29
-Resultado 27 Nodos visitados: 80
-Resultado 28 Nodos visitados: 34
-Resultado 29 Nodos visitados: 37
-Resultado 30 Nodos visitados: 37
-Media para k= 2 : 47
+Media para k= 2 : 38.9667
 
 Creamos arbol con k = 3
-Resultado 1 Nodos visitados: 102
-Resultado 2 Nodos visitados: 168
-Resultado 3 Nodos visitados: 131
-Resultado 4 Nodos visitados: 120
-Resultado 5 Nodos visitados: 87
-Resultado 6 Nodos visitados: 25
-Resultado 7 Nodos visitados: 79
-Resultado 8 Nodos visitados: 163
-Resultado 9 Nodos visitados: 115
-Resultado 10 Nodos visitados: 53
-Resultado 11 Nodos visitados: 157
-Resultado 12 Nodos visitados: 70
-Resultado 13 Nodos visitados: 70
-Resultado 14 Nodos visitados: 58
-Resultado 15 Nodos visitados: 157
-Resultado 16 Nodos visitados: 58
-Resultado 17 Nodos visitados: 153
-Resultado 18 Nodos visitados: 55
-Resultado 19 Nodos visitados: 123
-Resultado 20 Nodos visitados: 59
-Resultado 21 Nodos visitados: 141
-Resultado 22 Nodos visitados: 84
-Resultado 23 Nodos visitados: 82
-Resultado 24 Nodos visitados: 130
-Resultado 25 Nodos visitados: 156
-Resultado 26 Nodos visitados: 39
-Resultado 27 Nodos visitados: 67
-Resultado 28 Nodos visitados: 101
-Resultado 29 Nodos visitados: 24
-Resultado 30 Nodos visitados: 59
-Media para k= 3 : 96.2
+Media para k= 3 : 137.433
 
 Creamos arbol con k = 4
-Resultado 1 Nodos visitados: 364
-Resultado 2 Nodos visitados: 479
-Resultado 3 Nodos visitados: 111
-Resultado 4 Nodos visitados: 422
-Resultado 5 Nodos visitados: 92
-Resultado 6 Nodos visitados: 1201
-Resultado 7 Nodos visitados: 630
-Resultado 8 Nodos visitados: 284
-Resultado 9 Nodos visitados: 189
-Resultado 10 Nodos visitados: 449
-Resultado 11 Nodos visitados: 315
-Resultado 12 Nodos visitados: 419
-Resultado 13 Nodos visitados: 526
-Resultado 14 Nodos visitados: 33
-Resultado 15 Nodos visitados: 184
-Resultado 16 Nodos visitados: 727
-Resultado 17 Nodos visitados: 287
-Resultado 18 Nodos visitados: 265
-Resultado 19 Nodos visitados: 307
-Resultado 20 Nodos visitados: 1213
-Resultado 21 Nodos visitados: 883
-Resultado 22 Nodos visitados: 398
-Resultado 23 Nodos visitados: 127
-Resultado 24 Nodos visitados: 644
-Resultado 25 Nodos visitados: 293
-Resultado 26 Nodos visitados: 266
-Resultado 27 Nodos visitados: 679
-Resultado 28 Nodos visitados: 691
-Resultado 29 Nodos visitados: 149
-Resultado 30 Nodos visitados: 64
-Media para k= 4 : 423.033
+Media para k= 4 : 434.033
 
 Creamos arbol con k = 5
-Resultado 1 Nodos visitados: 1180
-Resultado 2 Nodos visitados: 3622
-Resultado 3 Nodos visitados: 589
-Resultado 4 Nodos visitados: 403
-Resultado 5 Nodos visitados: 2054
-Resultado 6 Nodos visitados: 823
-Resultado 7 Nodos visitados: 407
-Resultado 8 Nodos visitados: 627
-Resultado 9 Nodos visitados: 1158
-Resultado 10 Nodos visitados: 3068
-Resultado 11 Nodos visitados: 809
-Resultado 12 Nodos visitados: 2653
-Resultado 13 Nodos visitados: 1573
-Resultado 14 Nodos visitados: 335
-Resultado 15 Nodos visitados: 3690
-Resultado 16 Nodos visitados: 1540
-Resultado 17 Nodos visitados: 544
-Resultado 18 Nodos visitados: 1998
-Resultado 19 Nodos visitados: 6107
-Resultado 20 Nodos visitados: 695
-Resultado 21 Nodos visitados: 538
-Resultado 22 Nodos visitados: 394
-Resultado 23 Nodos visitados: 961
-Resultado 24 Nodos visitados: 1394
-Resultado 25 Nodos visitados: 1680
-Resultado 26 Nodos visitados: 1182
-Resultado 27 Nodos visitados: 3006
-Resultado 28 Nodos visitados: 1499
-Resultado 29 Nodos visitados: 333
-Resultado 30 Nodos visitados: 3664
-Media para k= 5 : 1617.53
+Media para k= 5 : 1927.2
 
 Creamos arbol con k = 6
-Resultado 1 Nodos visitados: 6805
-Resultado 2 Nodos visitados: 26751
-Resultado 3 Nodos visitados: 4899
-Resultado 4 Nodos visitados: 4079
-Resultado 5 Nodos visitados: 14871
-Resultado 6 Nodos visitados: 2917
-Resultado 7 Nodos visitados: 3358
-Resultado 8 Nodos visitados: 1878
-Resultado 9 Nodos visitados: 5495
-Resultado 10 Nodos visitados: 7593
-Resultado 11 Nodos visitados: 1579
-Resultado 12 Nodos visitados: 2191
-Resultado 13 Nodos visitados: 6011
-Resultado 14 Nodos visitados: 9506
-Resultado 15 Nodos visitados: 2451
-Resultado 16 Nodos visitados: 6511
-Resultado 17 Nodos visitados: 7956
-Resultado 18 Nodos visitados: 4503
-Resultado 19 Nodos visitados: 7255
-Resultado 20 Nodos visitados: 5126
-Resultado 21 Nodos visitados: 10115
-Resultado 22 Nodos visitados: 12895
-Resultado 23 Nodos visitados: 3048
-Resultado 24 Nodos visitados: 6816
-Resultado 25 Nodos visitados: 9830
-Resultado 26 Nodos visitados: 2814
-Resultado 27 Nodos visitados: 449
-Resultado 28 Nodos visitados: 4091
-Resultado 29 Nodos visitados: 4548
-Resultado 30 Nodos visitados: 11423
-Media para k= 6 : 6592.13
+Media para k= 6 : 5506.37
+
+
+
+Para N = 2000000
+Creamos arbol con k = 2
+Media para k= 2 : 43.5
+
+Creamos arbol con k = 3
+Media para k= 3 : 114.767
+
+Creamos arbol con k = 4
+Media para k= 4 : 393.667
+
+Creamos arbol con k = 5
+Media para k= 5 : 2117.87
+
+Creamos arbol con k = 6
+Media para k= 6 : 10081.4
+
+
+
+Para N = 3000000
+Creamos arbol con k = 2
+Media para k= 2 : 55.9667
+
+Creamos arbol con k = 3
+Media para k= 3 : 139.333
+
+Creamos arbol con k = 4
+Media para k= 4 : 354.433
+
+Creamos arbol con k = 5
+Media para k= 5 : 2956.6
+
+Creamos arbol con k = 6
+Media para k= 6 : 11238
+
+
+
+Para N = 4000000
+Creamos arbol con k = 2
+Media para k= 2 : 47.5667
+
+Creamos arbol con k = 3
+Media para k= 3 : 124.5
+
+Creamos arbol con k = 4
+Media para k= 4 : 514.5
+
+Creamos arbol con k = 5
+Media para k= 5 : 2741.03
+
+Creamos arbol con k = 6
+Media para k= 6 : 9635.87
+
+
+
+Para N = 5000000
+Creamos arbol con k = 2
+Media para k= 2 : 45.8
+
+Creamos arbol con k = 3
+Media para k= 3 : 142.067
+
+Creamos arbol con k = 4
+Media para k= 4 : 379.033
+
+Creamos arbol con k = 5
+Media para k= 5 : 2639.1
+
+Creamos arbol con k = 6
+Media para k= 6 : 14342.8
+
+
+
+Para N = 6000000
+Creamos arbol con k = 2
+Media para k= 2 : 48.4667
+
+Creamos arbol con k = 3
+Media para k= 3 : 126.133
+
+Creamos arbol con k = 4
+Media para k= 4 : 665.133
+
+Creamos arbol con k = 5
+Media para k= 5 : 2127.73
+
+Creamos arbol con k = 6
+Media para k= 6 : 9517.83
+
+
+
+Para N = 7000000
+Creamos arbol con k = 2
+Media para k= 2 : 54.7
+
+Creamos arbol con k = 3
+Media para k= 3 : 134.2
+
+Creamos arbol con k = 4
+Media para k= 4 : 440.467
+
+Creamos arbol con k = 5
+Media para k= 5 : 2551.6
+
+Creamos arbol con k = 6
+Media para k= 6 : 14656.1
+
+
+
+Para N = 8000000
+Creamos arbol con k = 2
+Media para k= 2 : 53.5
+
+Creamos arbol con k = 3
+Media para k= 3 : 141
+
+Creamos arbol con k = 4
+Media para k= 4 : 659.2
+
+Creamos arbol con k = 5
+Media para k= 5 : 3765.9
+
+Creamos arbol con k = 6
+Media para k= 6 : 14768
+
+
+
+Para N = 9000000
+Creamos arbol con k = 2
+Media para k= 2 : 52.6667
+
+Creamos arbol con k = 3
+Media para k= 3 : 119.767
+
+Creamos arbol con k = 4
+Media para k= 4 : 508.867
+
+Creamos arbol con k = 5
+Media para k= 5 : 2646.03
+
+Creamos arbol con k = 6
+Media para k= 6 : 12669.5
+
+
+
+Para N = 10000000
+Creamos arbol con k = 2
+Media para k= 2 : 50.6333
+
+Creamos arbol con k = 3
+Media para k= 3 : 148.1
+
+Creamos arbol con k = 4
+Media para k= 4 : 437.4
+
+Creamos arbol con k = 5
+Media para k= 5 : 2820.03
+
+Creamos arbol con k = 6
+Media para k= 6 : 11620.9
+
+
 

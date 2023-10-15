@@ -1,4 +1,4 @@
-all: kdtree.o program 
+all: clean kdtree.o program 
 
 program: kdtree.o main.cc
 	g++ -o program main.cc kdtree.o
