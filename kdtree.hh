@@ -9,6 +9,7 @@
 #include <iomanip>
 #include <math.h> 
 #include <cmath>
+#include <time.h>
 using namespace std; 
 
 typedef std::vector<float> Point;
