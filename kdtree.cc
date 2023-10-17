@@ -17,7 +17,8 @@ KDTree::KDTree(const std::vector<Point>& points) {
 KDTree::KDTree(int N, int K) {
     // Generar numeros aleatorios en el intervalo [0, 1]
     std::random_device rd;
-    std::mt19937 mt(rd());
+    unsigned seed = (unsigned int)time(NULL);
+    std::mt19937 mt(seed);
     std::uniform_real_distribution<double> dist(0, 1);
 
     // Vector con N puntos de K dimensiones
@@ -125,7 +126,7 @@ KDTreeNode* KDTree::closest(const Point& n, KDTreeNode* temp, KDTreeNode* r) {
 Point KDTree::nearestNode(const Point& p, int & nodexpanded) {
  
     Point point = (nearestNode(root, p, 0, nodexpanded)) -> point;
-   // std::cout << "Nodos visitados: " << (nodexpanded) << std::endl;
+    //std::cout << "Nodos visitados: " << (nodexpanded) << std::endl;
     return point;
 }
 
@@ -179,24 +180,3 @@ KDTree::~KDTree() {
     // Implementa la eliminación de nodos y liberación de memoria aquí.
     destroyTree(root);
 }
-
-
-
-
-/*
-7 2 1
-0.03
-0.06
-0.02
-0.07
-0.17
-0.15
-0.06
-0.12
-0.09
-0.01
-0.13
-0.15
-0.1
-0.19
-*/
